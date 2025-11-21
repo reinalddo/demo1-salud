@@ -293,7 +293,7 @@
                 </div>
                 
                 <div>
-                    <a href="https://wa.me/584241234567?text=Hola,%20Tengo%20una%20Emergencia" class="btn btn-white bg-white text-danger fw-bold btn-lg rounded-pill px-5 shadow">
+                    <a href="https://wa.me/584241234567?text=Hola,%20Tengo%20una%20Emergencia" class="btn btn-white bg-white text-danger fw-bold btn-lg rounded-pill px-5 shadow" target="_blank">
                         <i class="bi bi-telephone-fill me-2"></i> Llamar Emergencia
                     </a>
                 </div>
