@@ -209,7 +209,7 @@
 </section>
 
 <section id="pediatria" class="parallax-section position-relative" style="background-image: url('https://images.unsplash.com/photo-1606218566353-29a357eb602d?q=80&w=1600&auto=format&fit=crop');">
-    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(255, 193, 7, 0.75);"></div>
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: #ffc107; opacity: 0.60;"></div>
     
     <div class="container position-relative z-1 py-5">
         <div class="row align-items-center">
@@ -217,12 +217,12 @@
             
             <div class="col-lg-6 text-end">
                 <div class="d-flex align-items-center justify-content-end mb-3">
-                    <h2 class="display-5 fw-bold mb-0 me-3 text-white" style="text-shadow: 0 2px 4px rgba(0,0,0,0.3);">Pediatría con Amor</h2>
-                    <i class="bi bi-emoji-smile-fill fs-1 text-white" style="filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));"></i>
+                    <h2 class="display-5 fw-bold mb-0 me-3 text-white" style="text-shadow: 0 2px 4px rgba(0,0,0,0.5);">Pediatría con Amor</h2>
+                    <i class="bi bi-emoji-smile-fill fs-1 text-white" style="filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));"></i>
                 </div>
-                <p class="lead mb-4 fw-bold text-white" style="text-shadow: 0 1px 3px rgba(0,0,0,0.5);">Creamos un ambiente seguro y divertido. Desde vacunas hasta control de crecimiento.</p>
+                <p class="lead mb-4 fw-bold text-white" style="text-shadow: 0 2px 4px rgba(0,0,0,0.8);">Creamos un ambiente seguro y divertido. Desde vacunas hasta control de crecimiento.</p>
                 
-                <ul class="list-unstyled mb-4 d-inline-block text-end fw-bold text-white" style="text-shadow: 0 1px 2px rgba(0,0,0,0.5);">
+                <ul class="list-unstyled mb-4 d-inline-block text-end fw-bold text-white" style="text-shadow: 0 2px 4px rgba(0,0,0,0.8);">
                     <li class="mb-2 fs-5">Control de Niño Sano <i class="bi bi-check2-circle ms-2"></i></li>
                     <li class="mb-2 fs-5">Vacunación sin dolor <i class="bi bi-check2-circle ms-2"></i></li>
                 </ul>
@@ -273,7 +273,7 @@
 </section>
 
 <section id="urgencias" class="parallax-section position-relative" style="background-image: url('https://images.unsplash.com/photo-1516574187841-693017951c22?q=80&w=1600&auto=format&fit=crop');">
-    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(220, 53, 69, 0.80);"></div>
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: #dc3545; opacity: 0.70;"></div>
     
     <div class="container position-relative z-1 text-white py-5">
         <div class="row align-items-center">
@@ -284,7 +284,7 @@
                     <h2 class="display-5 fw-bold mb-0 me-3">Urgencias 24/7</h2>
                     <i class="bi bi-hospital-fill fs-1 text-white"></i>
                 </div>
-                <p class="lead mb-4 fw-bold" style="text-shadow: 0 2px 4px rgba(0,0,0,0.3);">Cuando cada segundo cuenta, estamos listos. Unidad de trauma disponible.</p>
+                <p class="lead mb-4 fw-bold" style="text-shadow: 0 2px 4px rgba(0,0,0,0.5);">Cuando cada segundo cuenta, estamos listos. Unidad de trauma disponible.</p>
                 
                 <div class="alert alert-light d-inline-block text-danger fw-bold border-0 shadow-sm mb-4">
                     <i class="bi bi-exclamation-triangle-fill me-2"></i> Atención inmediata
