@@ -209,8 +209,8 @@
 </section>
 
 <section id="pediatria" class="parallax-section position-relative" style="background-image: url('https://images.unsplash.com/photo-1606218566353-29a357eb602d?q=80&w=1600&auto=format&fit=crop');">
-    <div class="position-absolute top-0 start-0 w-100 h-100 bg-warning opacity-75" style="mix-blend-mode: multiply;"></div>
-    
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(255, 193, 7, 0.75);"></div>
+
     <div class="container position-relative z-1 text-white py-5">
         <div class="row align-items-center">
             <div class="col-lg-6"></div> <div class="col-lg-6 text-end">
@@ -271,8 +271,8 @@
 </section>
 
 <section id="urgencias" class="parallax-section position-relative" style="background-image: url('https://images.unsplash.com/photo-1516574187841-693017951c22?q=80&w=1600&auto=format&fit=crop');">
-    <div class="position-absolute top-0 start-0 w-100 h-100 bg-danger opacity-75"></div>
-    
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(220, 53, 69, 0.80);"></div>
+        
     <div class="container position-relative z-1 text-white py-5">
         <div class="row align-items-center">
             <div class="col-lg-6"></div>
