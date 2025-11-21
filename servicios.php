@@ -139,7 +139,7 @@
                     <li class="mb-2 fs-5"><i class="bi bi-check2-circle text-primary me-2"></i> Rehabilitación cardíaca</li>
                 </ul>
                 
-                <a href="https://wa.me/584241234567?text=Hola,%20quiero%20cita%20para%20Cardiología" class="btn btn-primary btn-lg rounded-pill px-5">
+                <a href="https://wa.me/584241234567?text=Hola,%20quiero%20cita%20para%20Cardiología" target="_blank" class="btn btn-primary btn-lg rounded-pill px-5">
                     Pedir Cita Cardiología
                 </a>
             </div>
@@ -164,7 +164,7 @@
                     <li class="mb-2 fs-5">Entrega digital inmediata <i class="bi bi-check2-circle text-info ms-2"></i></li>
                 </ul>
                 <div>
-                    <a href="https://wa.me/584241234567?text=Hola,%20necesito%20Rayos%20X" class="btn btn-light text-primary btn-lg rounded-pill px-5">
+                    <a href="https://wa.me/584241234567?text=Hola,%20necesito%20Rayos%20X" target="_blank" class="btn btn-light text-primary btn-lg rounded-pill px-5">
                         Consultar Disponibilidad
                     </a>
                 </div>
@@ -200,7 +200,7 @@
                     </div>
                 </div>
                 
-                <a href="https://wa.me/584241234567?text=Hola,%20precios%20de%20laboratorio" class="btn btn-success btn-lg rounded-pill px-5">
+                <a href="https://wa.me/584241234567?text=Hola,%20precios%20de%20laboratorio" target="_blank" class="btn btn-success btn-lg rounded-pill px-5">
                     Ver Lista de Exámenes
                 </a>
             </div>
@@ -227,7 +227,7 @@
                     <li class="mb-2 fs-5">Vacunación sin dolor <i class="bi bi-check2-circle ms-2"></i></li>
                 </ul>
                 <div>
-                    <a href="https://wa.me/584241234567?text=Hola,%20necesito%20cita%20para%20mi%20hijo" class="btn btn-white bg-white text-warning fw-bold btn-lg rounded-pill px-5 shadow">
+                    <a href="https://wa.me/584241234567?text=Hola,%20necesito%20cita%20para%20mi%20hijo" target="_blank" class="btn btn-white bg-white text-warning fw-bold btn-lg rounded-pill px-5 shadow">
                         Agendar Pediatra
                     </a>
                 </div>
@@ -263,7 +263,7 @@
                     </div>
                 </div>
                 
-                <a href="https://wa.me/584241234567?text=Hola,%20quiero%20cita%20odontológica" class="btn btn-outline-light btn-lg rounded-pill px-5">
+                <a href="https://wa.me/584241234567?text=Hola,%20quiero%20cita%20odontológica" target="_blank" class="btn btn-outline-light btn-lg rounded-pill px-5">
                     Valoración Dental
                 </a>
             </div>
