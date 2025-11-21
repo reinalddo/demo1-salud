@@ -272,22 +272,16 @@
     </div>
 </section>
 
-<section id="urgencias" class="position-relative py-5 overflow-hidden" style="min-height: 500px; display: flex; align-items: center;">
+<section id="urgencias" class="parallax-section position-relative" style="background-image: url('https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=1600');">
     
-    <img src="https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=1600" 
-         alt="Ambulancia Urgencias" 
-         class="position-absolute top-0 start-0 w-100 h-100" 
-         style="object-fit: cover; z-index: 0;">
-
-    <div class="position-absolute top-0 start-0 w-100 h-100 bg-danger" 
-         style="opacity: 0.75; z-index: 1;"></div>
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(220, 53, 69, 0.75);"></div>
     
-    <div class="container position-relative" style="z-index: 2;">
+    <div class="container position-relative z-1 text-white py-5">
         <div class="row align-items-center">
-            <div class="col-lg-6"></div> <div class="col-lg-6 text-end text-white">
+            <div class="col-lg-6"></div> <div class="col-lg-6 text-end">
                 <div class="d-flex align-items-center justify-content-end mb-3">
                     <h2 class="display-5 fw-bold mb-0 me-3" style="text-shadow: 0 2px 5px rgba(0,0,0,0.5);">Urgencias 24/7</h2>
-                    <i class="bi bi-hospital-fill fs-1" style="filter: drop-shadow(0 2px 5px rgba(0,0,0,0.5));"></i>
+                    <i class="bi bi-hospital-fill fs-1 text-white" style="filter: drop-shadow(0 2px 5px rgba(0,0,0,0.5));"></i>
                 </div>
                 
                 <p class="lead mb-4 fw-bold" style="text-shadow: 0 2px 4px rgba(0,0,0,0.8);">
@@ -306,7 +300,7 @@
             </div>
         </div>
     </div>
-</section> 
+</section>
 
 <section class="py-5 bg-white">
     <div class="container">
