@@ -1,0 +1,28 @@
+# .htaccess creado por Copilot
+# - Activa RewriteEngine
+# - Oculta la extensión .php (ej: /nosotros en lugar de /nosotros.php)
+# - Fuerza HTTPS
+# - Evita 404 reenviando peticiones no encontradas a index.php
+
+Options -MultiViews
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	# Forzar HTTPS
+	RewriteCond %{HTTPS} !=on
+	RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+	# Si es un archivo o directorio real, servirlo tal cual
+	RewriteCond %{REQUEST_FILENAME} -f [OR]
+	RewriteCond %{REQUEST_FILENAME} -d
+	RewriteRule ^ - [L]
+
+	# Si añadiendo .php existe, reescribir internamente a ese archivo
+	RewriteCond %{REQUEST_FILENAME}.php -f
+	RewriteRule ^(.*)$ $1.php [L]
+
+	# Si no existe archivo ni .php, reenviar a index.php para evitar 404
+	RewriteRule ^ index.php [L]
+</IfModule>
+
