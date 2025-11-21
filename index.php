@@ -143,7 +143,7 @@
                 <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
                     <a href="servicios#pediatria" class="card border-0 shadow-sm h-100 text-decoration-none hover-lift overflow-hidden">
                         <div class="overflow-hidden" style="height: 200px;">
-                            <img src="https://images.unsplash.com/photo-1606218566353-29a357eb602d?q=80&w=600&auto=format&fit=crop" class="card-img-top transition-scale" alt="Pediatría" style="object-fit: cover; height: 100%; width: 100%;">
+                            <img src="https://images.pexels.com/photos/4546132/pexels-photo-4546132.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top transition-scale" alt="Pediatría" style="object-fit: cover; height: 100%; width: 100%;">
                         </div>
                         <div class="card-body text-center p-4">
                             <h5 class="fw-bold text-dark mb-1">Pediatría</h5>
@@ -151,7 +151,7 @@
                         </div>
                     </a>
                 </div>
-
+                
                 <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
                     <a href="servicios#laboratorio" class="card border-0 shadow-sm h-100 text-decoration-none hover-lift overflow-hidden">
                         <div class="overflow-hidden" style="height: 200px;">
@@ -216,22 +216,26 @@
         </div>
     </section>
 
-    <section class="py-5 position-relative parallax-section" style="background-image: url('https://images.unsplash.com/photo-1516549655169-df83a0929514?q=80&w=1600&auto=format&fit=crop'); min-height: 400px; display: flex; align-items: center;">
-        <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(255, 255, 255, 0.9);"></div>
+<section class="py-5 position-relative text-white" style="background: linear-gradient(135deg, #0062E6, #33AEFF);">
+    
+    <div class="position-absolute top-0 start-0 w-100 h-100 opacity-10" 
+         style="background-image: radial-gradient(#ffffff 1px, transparent 1px); background-size: 20px 20px;"></div>
+
+    <div class="container position-relative z-1 text-center py-4" data-aos="zoom-in">
+        <h2 class="display-4 fw-bold mb-3">¿Necesitas atención ahora?</h2>
+        <p class="lead mb-4 opacity-90">No dejes tu salud para después. Nuestro equipo está listo para recibirte.</p>
         
-        <div class="container position-relative z-1 text-center" data-aos="zoom-in">
-            <h2 class="display-4 fw-bold text-dark mb-3">¿Necesitas atención ahora?</h2>
-            <p class="lead text-muted mb-4">No dejes tu salud para después. Nuestro equipo está listo.</p>
-            <div class="d-flex justify-content-center gap-3 flex-wrap">
-                <a href="https://wa.me/584241234567" target="_blank" class="btn btn-success btn-lg rounded-pill px-5 fw-bold shadow hover-lift">
-                    <i class="bi bi-whatsapp me-2"></i> WhatsApp Directo
-                </a>
-                <a href="contacto" class="btn btn-outline-dark btn-lg rounded-pill px-5 fw-bold">
-                    Ver Ubicación
-                </a>
-            </div>
+        <div class="d-flex justify-content-center gap-3 flex-wrap">
+            <a href="https://wa.me/584241234567" target="_blank" class="btn btn-success btn-lg rounded-pill px-5 fw-bold shadow hover-lift border border-2 border-white">
+                <i class="bi bi-whatsapp me-2"></i> WhatsApp Directo
+            </a>
+            
+            <a href="contacto" class="btn btn-outline-light btn-lg rounded-pill px-5 fw-bold hover-lift">
+                Ver Ubicación
+            </a>
         </div>
-    </section>
+    </div>
+</section>
 
 </main>
 
