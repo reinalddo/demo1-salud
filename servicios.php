@@ -272,7 +272,7 @@
     </div>
 </section>
 
-<section id="urgencias" class="parallax-section position-relative" style="background-image: url('https://images.unsplash.com/photo-1516574187841-693017951c22?q=80&w=1600&auto=format&fit=crop');">
+<section id="urgencias" class="parallax-section position-relative" style="background-image: url('https://images.unsplash.com/photo-1587351021759-3e566b92f028?q=80&w=1600&auto=format&fit=crop');">
     <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: #dc3545; opacity: 0.70;"></div>
     
     <div class="container position-relative z-1 text-white py-5">
