@@ -272,26 +272,34 @@
     </div>
 </section>
 
-<section id="urgencias" class="parallax-section position-relative" style="background-image: url('https://images.unsplash.com/photo-1587351021759-3e566b92f028?q=80&w=1600&auto=format&fit=crop');">
-    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: #dc3545; opacity: 0.70;"></div>
+<section id="urgencias" class="position-relative py-5 overflow-hidden" style="min-height: 500px; display: flex; align-items: center;">
     
-    <div class="container position-relative z-1 text-white py-5">
+    <img src="https://images.unsplash.com/photo-1587351021759-3e566b92f028?q=80&w=1600&auto=format&fit=crop" 
+         alt="Ambulancia Urgencias" 
+         class="position-absolute top-0 start-0 w-100 h-100" 
+         style="object-fit: cover; z-index: 0;">
+
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-danger" 
+         style="opacity: 0.75; z-index: 1;"></div>
+    
+    <div class="container position-relative" style="z-index: 2;">
         <div class="row align-items-center">
-            <div class="col-lg-6"></div>
-            
-            <div class="col-lg-6 text-end">
+            <div class="col-lg-6"></div> <div class="col-lg-6 text-end text-white">
                 <div class="d-flex align-items-center justify-content-end mb-3">
-                    <h2 class="display-5 fw-bold mb-0 me-3">Urgencias 24/7</h2>
-                    <i class="bi bi-hospital-fill fs-1 text-white"></i>
+                    <h2 class="display-5 fw-bold mb-0 me-3" style="text-shadow: 0 2px 5px rgba(0,0,0,0.5);">Urgencias 24/7</h2>
+                    <i class="bi bi-hospital-fill fs-1" style="filter: drop-shadow(0 2px 5px rgba(0,0,0,0.5));"></i>
                 </div>
-                <p class="lead mb-4 fw-bold" style="text-shadow: 0 2px 4px rgba(0,0,0,0.5);">Cuando cada segundo cuenta, estamos listos. Unidad de trauma disponible.</p>
+                
+                <p class="lead mb-4 fw-bold" style="text-shadow: 0 2px 4px rgba(0,0,0,0.8);">
+                    Cuando cada segundo cuenta, estamos listos. Unidad de trauma y ambulancias disponibles.
+                </p>
                 
                 <div class="alert alert-light d-inline-block text-danger fw-bold border-0 shadow-sm mb-4">
-                    <i class="bi bi-exclamation-triangle-fill me-2"></i> Atención inmediata
+                    <i class="bi bi-exclamation-triangle-fill me-2"></i> Atención inmediata sin cita
                 </div>
                 
                 <div>
-                    <a href="tel:+34123456789" class="btn btn-light text-danger fw-bold btn-lg rounded-pill px-5 shadow" target="_blank">
+                    <a href="tel:+34123456789" class="btn btn-white bg-white text-danger fw-bold btn-lg rounded-pill px-5 shadow">
                         <i class="bi bi-telephone-fill me-2"></i> Llamar Emergencia
                     </a>
                 </div>
