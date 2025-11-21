@@ -1,13 +1,31 @@
-html {
-    scroll-behavior: smooth;
-}
-/* Clase para el efecto Parallax (Fondo fijo) */
-.parallax-section {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 500px; /* Altura mínima para que luzca */
-    display: flex;
-    align-items: center;
-}
+    /* 1. SCROLL SUAVE: Para que el clic se deslice elegante */
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /* 2. PARALLAX: Para que el fondo se quede quieto y el contenido pase por encima */
+    .parallax-section {
+        background-attachment: fixed; /* El secreto del efecto */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 500px;
+        display: flex;
+        align-items: center;
+    }
+
+    /* 3. HOVER LIFT: Para que las tarjetas floten al pasar el mouse */
+    .hover-lift {
+        transition: all 0.3s ease;
+    }
+    .hover-lift:hover {
+        transform: translateY(-10px); /* Se levanta 10px */
+        box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    }
+    
+    /* Ajuste para móviles: Desactiva parallax en celulares (ahorra batería y evita bugs) */
+    @media (max-width: 768px) {
+        .parallax-section {
+            background-attachment: scroll;
+        }
+    }
