@@ -1,32 +1,43 @@
+
 <footer class="bg-dark text-light py-5">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4 mb-3">
-				<h5>Contacto</h5>
-				<p class="mb-1">Calle Falsa 123, Ciudad</p>
-				<p class="mb-1">Tel: <a href="tel:+34123456789" class="text-decoration-none text-light">+34 123 456 789</a></p>
-				<p class="mb-0">Email: <a href="mailto:info@ejemplo.com" class="text-decoration-none text-light">info@ejemplo.com</a></p>
+			<div class="col-md-4 mb-4">
+				<a class="navbar-brand fw-bold text-decoration-none text-light" href="index">Clínica Salud</a>
+				<p class="mt-3 mb-1">Calle Falsa 123, Ciudad</p>
+				<p class="mb-0">Tel: <a href="tel:+34123456789" class="text-decoration-none text-light">+34 123 456 789</a></p>
 			</div>
-			<div class="col-md-4 mb-3">
-				<h5>Links Rápidos</h5>
+
+			<div class="col-md-4 mb-4">
+				<h5>Enlaces Rápidos</h5>
 				<ul class="list-unstyled">
-					<li><a href="/index.php" class="text-decoration-none text-light">Inicio</a></li>
-					<li><a href="/servicios.php" class="text-decoration-none text-light">Servicios</a></li>
-					<li><a href="/nosotros.php" class="text-decoration-none text-light">Nosotros</a></li>
-					<li><a href="/contacto.php" class="text-decoration-none text-light">Contacto</a></li>
+					<li><a href="index" class="text-decoration-none text-light">Inicio</a></li>
+					<li><a href="nosotros" class="text-decoration-none text-light">Nosotros</a></li>
+					<li><a href="servicios" class="text-decoration-none text-light">Servicios</a></li>
+					<li><a href="contacto" class="text-decoration-none text-light">Contacto</a></li>
 				</ul>
 			</div>
-			<div class="col-md-4 mb-3">
-				<h5>Redes</h5>
-				<ul class="list-unstyled">
-					<li><a href="#" class="text-decoration-none text-light">Facebook</a></li>
-					<li><a href="#" class="text-decoration-none text-light">Instagram</a></li>
-					<li><a href="#" class="text-decoration-none text-light">Twitter</a></li>
-				</ul>
+
+			<div class="col-md-4 mb-4">
+				<h5>Redes & Horario</h5>
+				<p>
+					<a href="#" class="text-light me-3" aria-label="Facebook">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+							<path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-3h2v-2.3c0-2 1.2-3.1 3-3.1.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2V12h2.2l-.4 3h-1.8v7A10 10 0 0 0 22 12z"/>
+						</svg>
+					</a>
+					<a href="#" class="text-light me-3" aria-label="Instagram">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+							<path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.2a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6zm0 2a2.8 2.8 0 1 0 0 5.6 2.8 2.8 0 0 0 0-5.6zM18.5 6.2a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+						</svg>
+					</a>
+				</p>
+				<p class="mb-0"><strong>Horario:</strong><br> Lun - Vie: 9:00 - 18:00</p>
 			</div>
 		</div>
-		<div class="text-center mt-3">
-			<small>&copy; <?php echo date('Y'); ?> - Tu Clínica. Todos los derechos reservados.</small>
+
+		<div class="border-top border-secondary mt-4 pt-3 text-center">
+			<small class="d-block">&copy; <?php echo date('Y'); ?> Clínica Salud. Todos los derechos reservados.</small>
 		</div>
 	</div>
 </footer>
@@ -35,4 +46,5 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
 

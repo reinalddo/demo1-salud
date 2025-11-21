@@ -1,108 +1,72 @@
 <?php include 'includes/header.php'; ?>
 <style>
     .hero {
-        position: relative;
-        background-image:
-            linear-gradient(rgba(6, 30, 60, 0.55), rgba(6, 30, 60, 0.55)),
-            url('assets/hero.jpg');
-        background-size: cover;
-        background-position: center;
-        color: #fff;
-        padding: 90px 20px;
+        background: linear-gradient(180deg, #eef7ff 0%, #f8fbff 100%);
+        padding: 80px 20px;
     }
-    .hero .container { max-width: 1100px; margin: 0 auto; display:flex; gap:40px; align-items:center; }
-    .hero .content { flex:1; }
-    .hero h1 { font-size: clamp(2rem, 5vw, 4rem); margin:0 0 12px; line-height:1.02; font-weight:700; }
-    .hero p { margin:0 0 20px; font-size:1.05rem; opacity:0.95; }
-    .cta-btn {
-        display:inline-block;
-        background:#16a34a;
-        color:#fff;
-        padding:12px 20px;
-        border-radius:10px;
-        text-decoration:none;
-        font-weight:600;
-        box-shadow:0 8px 24px rgba(22,163,74,0.18);
-        transition:transform .15s ease, box-shadow .15s ease;
-    }
-    .cta-btn:hover { transform:translateY(-3px); box-shadow:0 14px 34px rgba(22,163,74,0.22); }
-
-    .services { max-width:1100px; margin:36px auto; padding:20px; display:grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap:18px; }
-    .card {
-        background:#fff;
-        border-radius:12px;
-        padding:18px;
-        box-shadow:0 8px 28px rgba(7,12,23,0.06);
-        display:flex; gap:14px; align-items:center;
-    }
-    .icon {
-        width:58px; height:58px; border-radius:10px;
-        display:flex; align-items:center; justify-content:center; flex-shrink:0;
-        background:linear-gradient(135deg,#f0fbf6,#e6f6ef);
-    }
-    .card h3 { margin:0; font-size:1.05rem; color:#0f172a; }
-    .card p { margin:6px 0 0; color:#475569; font-size:0.95rem; }
-
-    @media (max-width:720px){
-        .hero .container { flex-direction:column; text-align:center; }
-        .hero .content { width:100%; }
-    }
+    .hero .hero-inner { max-width:1100px; margin:0 auto; display:flex; gap:30px; align-items:center; }
+    .hero h1 { font-size: clamp(1.8rem, 4.5vw, 3.4rem); margin:0 0 12px; font-weight:700; color:#05224a; }
+    .hero p { margin:0 0 20px; color:#334155; font-size:1.05rem; }
+    .services-row { max-width:1100px; margin:36px auto; padding:0 20px; }
+    .service-card { border-radius:12px; box-shadow:0 8px 24px rgba(10,20,40,0.06); padding:22px; text-align:center; }
+    .service-icon { font-size:28px; display:block; width:56px; height:56px; margin:0 auto 12px; align-items:center; justify-content:center; border-radius:10px; background:#f1f8ff; color:#0b6bb0; display:flex; }
+    .phone-strip { background:#0d6efd; color:#fff; padding:18px 12px; text-align:center; }
+    @media (max-width:768px){ .hero .hero-inner { flex-direction:column; text-align:center; } }
 </style>
 
-<section class="hero" role="banner" aria-label="Sección principal">
-    <div class="container">
-        <div class="content">
-            <h1>Tu Salud en Buenas Manos</h1>
-            <p>Atención profesional, rápida y cercana. Agenda tu cita o recibe orientación ahora mismo.</p>
-            <a class="cta-btn" href="#contacto" role="button">Agenda una cita</a>
+<section class="hero" role="banner" aria-label="Hero - Tu salud">
+    <div class="hero-inner">
+        <div class="hero-content">
+            <h1>Tu Salud, Nuestra Prioridad</h1>
+            <p>Atención integral y humana con profesionales especializados. Reserva tu consulta y recibe el mejor cuidado.</p>
+            <a class="btn btn-primary btn-lg" href="contacto" role="button">Agendar Cita</a>
         </div>
-        <div class="decor" aria-hidden="true"></div>
+        <div class="hero-visual" aria-hidden="true">
+            <img src="assets/hero.jpg" alt="Consulta médica" style="max-width:420px; width:100%; border-radius:12px; box-shadow:0 12px 40px rgba(13,38,76,0.08);">
+        </div>
     </div>
 </section>
 
-<section class="services" aria-label="Servicios destacados">
-    <article class="card" aria-labelledby="urgencias-title">
-        <div class="icon" aria-hidden="true">
-            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#057a55" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
-                <rect x="1" y="7" width="18" height="11" rx="2"></rect>
-                <path d="M23 11h-6"></path>
-                <path d="M6 7V4a2 2 0 012-2h4"></path>
-                <path d="M6 18v2"></path>
-                <path d="M16 18v2"></path>
-                <path d="M9 11h6M12 8v6" stroke="#057a55" stroke-width="1.8"></path>
-            </svg>
+<section class="services-row" aria-label="Servicios destacados">
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="service-card">
+                <div class="service-icon" aria-hidden="true">🩺</div>
+                <h3>Medicina General</h3>
+                <p class="mb-0">Consultas, diagnóstico y seguimiento para toda la familia.</p>
+            </div>
         </div>
-        <div>
-            <h3 id="urgencias-title">Urgencias</h3>
-            <p>Atención 24/7 para emergencias y cuidados inmediatos.</p>
+        <div class="col-md-4">
+            <div class="service-card">
+                <div class="service-icon" aria-hidden="true">👶</div>
+                <h3>Pediatría</h3>
+                <p class="mb-0">Contención y controles pediátricos desde el nacimiento hasta la adolescencia.</p>
+            </div>
         </div>
-    </article>
-
-    <article class="card" aria-labelledby="pediatria-title">
-        <div class="icon" aria-hidden="true">
-            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0b6bb0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2a3 3 0 00-3 3v2a3 3 0 006 0V5a3 3 0 00-3-3z"></path>
-                <path d="M5 18a7 7 0 0114 0v1H5v-1z"></path>
-                <circle cx="9" cy="12" r="1" fill="#0b6bb0"></circle>
-            </svg>
+        <div class="col-md-4">
+            <div class="service-card">
+                <div class="service-icon" aria-hidden="true">🧪</div>
+                <h3>Laboratorio</h3>
+                <p class="mb-0">Análisis rápidos y confiables con interpretación profesional.</p>
+            </div>
         </div>
-        <div>
-            <h3 id="pediatria-title">Pediatría</h3>
-            <p>Cuidados especializados y cálidos para bebés, niños y adolescentes.</p>
-        </div>
-    </article>
-
-    <article class="card" aria-labelledby="laboratorio-title">
-        <div class="icon" aria-hidden="true">
-            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#a02c9a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7 2h10l-4 6v7a3 3 0 01-6 0V8L7 2z"></path>
-                <path d="M8 14h8" stroke="#a02c9a" stroke-width="1.8"></path>
-            </svg>
-        </div>
-        <div>
-            <h3 id="laboratorio-title">Laboratorio</h3>
-            <p>Análisis rápidos y confiables con resultados claros y seguros.</p>
-        </div>
-    </article>
+    </div>
 </section>
+
+<section class="phone-strip" aria-label="Llamada a la acción - Llamar">
+    <div class="container">
+        <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3">
+            <div>
+                <strong>¿Necesitas ayuda inmediata?</strong>
+            </div>
+            <div>
+                <a href="tel:+34123456789" class="text-white text-decoration-none"><span class="fw-bold">Llámanos al +34 123 456 789</span></a>
+            </div>
+            <div>
+                <a href="contacto" class="btn btn-light">Agenda una cita</a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php include 'includes/footer.php'; ?>
