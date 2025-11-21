@@ -236,34 +236,6 @@
     </div>
 </section>
 
-<section id="urgencias" class="parallax-section position-relative" style="background-image: url('https://images.unsplash.com/photo-1516574187841-693017951c22?q=80&w=1600&auto=format&fit=crop');">
-    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(220, 53, 69, 0.80);"></div>
-    
-    <div class="container position-relative z-1 text-white py-5">
-        <div class="row align-items-center">
-            <div class="col-lg-6"></div>
-            
-            <div class="col-lg-6 text-end">
-                <div class="d-flex align-items-center justify-content-end mb-3">
-                    <h2 class="display-5 fw-bold mb-0 me-3">Urgencias 24/7</h2>
-                    <i class="bi bi-hospital-fill fs-1 text-white"></i>
-                </div>
-                <p class="lead mb-4 fw-bold" style="text-shadow: 0 2px 4px rgba(0,0,0,0.3);">Cuando cada segundo cuenta, estamos listos. Unidad de trauma disponible.</p>
-                
-                <div class="alert alert-light d-inline-block text-danger fw-bold border-0 shadow-sm mb-4">
-                    <i class="bi bi-exclamation-triangle-fill me-2"></i> Atención inmediata
-                </div>
-                
-                <div>
-                    <a href="tel:+34123456789" class="btn btn-light text-danger fw-bold btn-lg rounded-pill px-5 shadow" target="_blank">
-                        <i class="bi bi-telephone-fill me-2"></i> Llamar Emergencia
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 <section id="odontologia" class="parallax-section position-relative" style="background-image: url('https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=1600&auto=format&fit=crop');">
     <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: #6f42c1; opacity: 0.85;"></div>
     
