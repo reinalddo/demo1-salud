@@ -1,83 +1,124 @@
 <?php include 'includes/header.php'; ?>
 
 <main>
-<header class="py-5 bg-dark position-relative" style="background-image: url('https://images.unsplash.com/photo-1516549655169-df83a0929514?q=80&w=1600&auto=format&fit=crop'); background-size: cover; background-position: center;">
-    <div class="position-absolute top-0 start-0 w-100 h-100 bg-primary opacity-80" style="opacity: 0.85;"></div>
-    <div class="container position-relative py-5 text-center text-white">
-        <h1 class="display-4 fw-bold">Nuestros Servicios</h1>
-        <p class="lead mx-auto" style="max-width: 700px;">
-            Tecnología de vanguardia y especialistas certificados para brindarte diagnósticos precisos.
-        </p>
+<header class="py-5 position-relative" style="background-image: url('https://images.unsplash.com/photo-1516549655169-df83a0929514?q=80&w=1920&auto=format&fit=crop'); background-size: cover; background-position: center; min-height: 400px; display: flex; align-items: center;">
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(to right, rgba(0,98,230,0.9), rgba(0,98,230,0.7));"></div>
+    
+    <div class="container position-relative text-white">
+        <div class="row">
+            <div class="col-lg-8">
+                <span class="badge bg-light text-primary mb-3 px-3 py-2 fw-bold rounded-pill">Tecnología de Punta</span>
+                <h1 class="display-3 fw-bold mb-3">Diagnósticos Precisos,<br>Tratamientos Efectivos</h1>
+                <p class="lead mb-0 opacity-90" style="max-width: 600px;">
+                    Contamos con el equipamiento más avanzado de la ciudad para garantizar tu seguridad y resultados confiables en tiempo récord.
+                </p>
+            </div>
+        </div>
     </div>
 </header>
 
 <section class="py-5 bg-light">
-    <div class="container">
+    <div class="container my-4">
         <div class="row g-4">
             <div class="col-md-6 col-lg-4">
-                <div class="card h-100 border-0 shadow-sm p-4 hover-lift transition-all">
-                    <div class="mb-3">
-                        <span class="d-inline-block bg-primary bg-opacity-10 p-3 rounded-circle text-primary">
-                            <i class="bi bi-heart-pulse-fill fs-2"></i>
-                        </span>
+                <div class="card h-100 border-0 shadow-sm hover-lift" style="border-top: 5px solid #0d6efd !important;">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="bg-primary bg-opacity-10 p-3 rounded-3 text-primary me-3">
+                                <i class="bi bi-heart-pulse-fill fs-3"></i>
+                            </div>
+                            <h4 class="fw-bold mb-0">Cardiología</h4>
+                        </div>
+                        <p class="text-muted mb-4">Evaluaciones cardíacas completas, monitoreo Holter y electrocardiogramas con especialistas certificados.</p>
+                        <a href="#" class="text-primary text-decoration-none fw-bold stretched-link">
+                            Más información <i class="bi bi-arrow-right ms-1"></i>
+                        </a>
                     </div>
-                    <h4 class="fw-bold">Cardiología</h4>
-                    <p class="text-muted mb-0">Evaluaciones cardíacas completas con electrocardiograma y monitoreo especializado.</p>
                 </div>
             </div>
+
             <div class="col-md-6 col-lg-4">
-                <div class="card h-100 border-0 shadow-sm p-4 hover-lift">
-                    <div class="mb-3">
-                        <span class="d-inline-block bg-primary bg-opacity-10 p-3 rounded-circle text-primary">
-                            <i class="bi bi-lungs-fill fs-2"></i>
-                        </span>
+                <div class="card h-100 border-0 shadow-sm hover-lift" style="border-top: 5px solid #0dcaf0 !important;">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="bg-info bg-opacity-10 p-3 rounded-3 text-info me-3">
+                                <i class="bi bi-lungs-fill fs-3"></i>
+                            </div>
+                            <h4 class="fw-bold mb-0">Rayos X Digitales</h4>
+                        </div>
+                        <p class="text-muted mb-4">Imágenes de alta resolución con menor exposición a radiación y entrega de resultados digitales inmediatos.</p>
+                        <a href="#" class="text-info text-decoration-none fw-bold stretched-link">
+                            Más información <i class="bi bi-arrow-right ms-1"></i>
+                        </a>
                     </div>
-                    <h4 class="fw-bold">Rayos X Digitales</h4>
-                    <p class="text-muted mb-0">Imágenes de alta resolución con menor exposición y entrega inmediata.</p>
                 </div>
             </div>
+
             <div class="col-md-6 col-lg-4">
-                <div class="card h-100 border-0 shadow-sm p-4 hover-lift">
-                    <div class="mb-3">
-                        <span class="d-inline-block bg-primary bg-opacity-10 p-3 rounded-circle text-primary">
-                            <i class="bi bi-virus fs-2"></i>
-                        </span>
+                <div class="card h-100 border-0 shadow-sm hover-lift" style="border-top: 5px solid #198754 !important;">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="bg-success bg-opacity-10 p-3 rounded-3 text-success me-3">
+                                <i class="bi bi-virus fs-3"></i>
+                            </div>
+                            <h4 class="fw-bold mb-0">Laboratorio</h4>
+                        </div>
+                        <p class="text-muted mb-4">Análisis clínicos completos, pruebas hormonales y microbiología con estrictos controles de calidad.</p>
+                        <a href="#" class="text-success text-decoration-none fw-bold stretched-link">
+                            Más información <i class="bi bi-arrow-right ms-1"></i>
+                        </a>
                     </div>
-                    <h4 class="fw-bold">Laboratorio Clínico</h4>
-                    <p class="text-muted mb-0">Análisis de rutina y especializados con control de calidad estricto.</p>
                 </div>
             </div>
+
             <div class="col-md-6 col-lg-4">
-                <div class="card h-100 border-0 shadow-sm p-4 hover-lift">
-                    <div class="mb-3">
-                        <span class="d-inline-block bg-primary bg-opacity-10 p-3 rounded-circle text-primary">
-                            <i class="bi bi-emoji-smile-fill fs-2"></i>
-                        </span>
+                <div class="card h-100 border-0 shadow-sm hover-lift" style="border-top: 5px solid #ffc107 !important;">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="bg-warning bg-opacity-10 p-3 rounded-3 text-warning me-3">
+                                <i class="bi bi-emoji-smile-fill fs-3"></i>
+                            </div>
+                            <h4 class="fw-bold mb-0">Pediatría</h4>
+                        </div>
+                        <p class="text-muted mb-4">Control de niño sano, esquema de vacunación completo y atención de urgencias infantiles con calidez.</p>
+                        <a href="#" class="text-warning text-decoration-none fw-bold stretched-link">
+                            Más información <i class="bi bi-arrow-right ms-1"></i>
+                        </a>
                     </div>
-                    <h4 class="fw-bold">Pediatría</h4>
-                    <p class="text-muted mb-0">Control de niño sano, vacunación y atención de urgencias infantiles.</p>
                 </div>
             </div>
+
             <div class="col-md-6 col-lg-4">
-                <div class="card h-100 border-0 shadow-sm p-4 hover-lift">
-                    <div class="mb-3">
-                        <span class="d-inline-block bg-primary bg-opacity-10 p-3 rounded-circle text-primary">
-                            <i class="bi bi-gem fs-2"></i>
-                        </span>
+                <div class="card h-100 border-0 shadow-sm hover-lift" style="border-top: 5px solid #6f42c1 !important;">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="bg-purple bg-opacity-10 p-3 rounded-3 text-purple me-3" style="color: #6f42c1;">
+                                <i class="bi bi-gem fs-3"></i>
+                            </div>
+                            <h4 class="fw-bold mb-0">Odontología</h4>
+                        </div>
+                        <p class="text-muted mb-4">Diseño de sonrisa, ortodoncia, endodoncia y cirugía maxilofacial con equipos indoloros.</p>
+                        <a href="#" style="color: #6f42c1;" class="text-decoration-none fw-bold stretched-link">
+                            Más información <i class="bi bi-arrow-right ms-1"></i>
+                        </a>
                     </div>
-                    <h4 class="fw-bold">Odontología</h4>
-                    <p class="text-muted mb-0">Limpiezas, ortodoncia y cirugía maxilofacial con equipos modernos.</p>
                 </div>
             </div>
+
             <div class="col-md-6 col-lg-4">
-                <div class="card h-100 border-0 shadow-sm p-4 hover-lift">
-                    <div class="mb-3">
-                        <span class="d-inline-block bg-primary bg-opacity-10 p-3 rounded-circle text-primary">
-                            <i class="bi bi-hospital-fill fs-2"></i>
-                        </span>
+                <div class="card h-100 border-0 shadow-sm hover-lift" style="border-top: 5px solid #dc3545 !important;">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="bg-danger bg-opacity-10 p-3 rounded-3 text-danger me-3">
+                                <i class="bi bi-hospital-fill fs-3"></i>
+                            </div>
+                            <h4 class="fw-bold mb-0">Urgencias 24/7</h4>
+                        </div>
+                        <p class="text-muted mb-4">Unidad de trauma y reanimación disponible todo el día, todos los días del año.</p>
+                        <a href="#" class="text-danger text-decoration-none fw-bold stretched-link">
+                            Más información <i class="bi bi-arrow-right ms-1"></i>
+                        </a>
                     </div>
-                    <h4 class="fw-bold">Urgencias 24/7</h4>
-                    <p class="text-muted mb-0">Atención inmediata para emergencias médicas y quirúrgicas.</p>
                 </div>
             </div>
         </div>
