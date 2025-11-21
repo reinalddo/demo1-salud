@@ -1,19 +1,15 @@
 <?php include 'includes/header.php'; ?>
 
 <main>
-<header class="py-5 position-relative" style="background-image: url('https://images.unsplash.com/photo-1516549655169-df83a0929514?q=80&w=1920&auto=format&fit=crop'); background-size: cover; background-position: center; min-height: 400px; display: flex; align-items: center;">
-    <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(to right, rgba(0,98,230,0.9), rgba(0,98,230,0.7));"></div>
-    
-    <div class="container position-relative text-white">
-        <div class="row">
-            <div class="col-lg-8">
-                <span class="badge bg-light text-primary mb-3 px-3 py-2 fw-bold rounded-pill">Tecnología de Punta</span>
-                <h1 class="display-3 fw-bold mb-3">Diagnósticos Precisos,<br>Tratamientos Efectivos</h1>
-                <p class="lead mb-0 opacity-90" style="max-width: 600px;">
-                    Contamos con el equipamiento más avanzado de la ciudad para garantizar tu seguridad y resultados confiables en tiempo récord.
-                </p>
-            </div>
-        </div>
+<header class="py-5 bg-dark position-relative" style="background-image: url('https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?q=80&w=1600&auto=format&fit=crop'); background-size: cover; background-position: center; min-height: 400px; display: flex; align-items: center;">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-primary opacity-75"></div>
+
+    <div class="container position-relative text-center text-white py-5">
+        <span class="badge bg-light text-primary mb-3 px-3 py-2 fw-bold rounded-pill">Tecnología y Precisión</span>
+        <h1 class="display-3 fw-bold">Nuestros Servicios</h1>
+        <p class="lead mx-auto mb-0" style="max-width: 700px;">
+            Contamos con equipamiento de última generación para garantizar diagnósticos rápidos y certeros para tu tranquilidad.
+        </p>
     </div>
 </header>
 
