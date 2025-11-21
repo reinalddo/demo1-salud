@@ -26,7 +26,7 @@
                             <h4 class="fw-bold mb-0">Cardiología</h4>
                         </div>
                         <p class="text-muted mb-4">Evaluaciones cardíacas completas, monitoreo Holter y electrocardiogramas con especialistas certificados.</p>
-                        <a href="#" class="text-primary text-decoration-none fw-bold stretched-link">
+                        <a href="#cardiologia" class="text-primary text-decoration-none fw-bold stretched-link">
                             Más información <i class="bi bi-arrow-right ms-1"></i>
                         </a>
                     </div>
@@ -43,7 +43,7 @@
                             <h4 class="fw-bold mb-0">Rayos X Digitales</h4>
                         </div>
                         <p class="text-muted mb-4">Imágenes de alta resolución con menor exposición a radiación y entrega de resultados digitales inmediatos.</p>
-                        <a href="#" class="text-info text-decoration-none fw-bold stretched-link">
+                        <a href="#rayos-x" class="text-info text-decoration-none fw-bold stretched-link">
                             Más información <i class="bi bi-arrow-right ms-1"></i>
                         </a>
                     </div>
@@ -60,7 +60,7 @@
                             <h4 class="fw-bold mb-0">Laboratorio</h4>
                         </div>
                         <p class="text-muted mb-4">Análisis clínicos completos, pruebas hormonales y microbiología con estrictos controles de calidad.</p>
-                        <a href="#" class="text-success text-decoration-none fw-bold stretched-link">
+                        <a href="#laboratorio" class="text-success text-decoration-none fw-bold stretched-link">
                             Más información <i class="bi bi-arrow-right ms-1"></i>
                         </a>
                     </div>
@@ -121,6 +121,93 @@
     </div>
 </section>
 
+<section id="cardiologia" class="parallax-section position-relative" style="background-image: url('https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?q=80&w=1600&auto=format&fit=crop');">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-75"></div>
+    
+    <div class="container position-relative z-1 text-white py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center mb-3">
+                    <i class="bi bi-heart-pulse-fill fs-1 text-primary me-3"></i>
+                    <h2 class="display-5 fw-bold mb-0">Cardiología Integral</h2>
+                </div>
+                <p class="lead mb-4">El corazón es el motor de tu vida. Nuestro centro cardiovascular ofrece la tecnología más avanzada para la prevención y tratamiento.</p>
+                
+                <ul class="list-unstyled mb-4">
+                    <li class="mb-2 fs-5"><i class="bi bi-check2-circle text-primary me-2"></i> Electrocardiograma digital</li>
+                    <li class="mb-2 fs-5"><i class="bi bi-check2-circle text-primary me-2"></i> Holter de presión y arritmia</li>
+                    <li class="mb-2 fs-5"><i class="bi bi-check2-circle text-primary me-2"></i> Rehabilitación cardíaca</li>
+                </ul>
+                
+                <a href="https://wa.me/584241234567?text=Hola,%20quiero%20cita%20para%20Cardiología" class="btn btn-primary btn-lg rounded-pill px-5">
+                    Pedir Cita Cardiología
+                </a>
+            </div>
+            <div class="col-lg-6"></div>
+        </div>
+    </div>
+</section>
+
+<section id="rayos-x" class="parallax-section position-relative" style="background-image: url('https://images.unsplash.com/photo-1530497610245-94d3c16cda28?q=80&w=1600&auto=format&fit=crop');">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-primary opacity-90" style="mix-blend-mode: multiply;"></div> <div class="container position-relative z-1 text-white py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6"></div> <div class="col-lg-6 text-end">
+                <div class="d-flex align-items-center justify-content-end mb-3">
+                    <h2 class="display-5 fw-bold mb-0 me-3">Imagenología Digital</h2>
+                    <i class="bi bi-lungs-fill fs-1 text-info"></i>
+                </div>
+                <p class="lead mb-4">Diagnósticos claros en segundos. Nuestros equipos de baja radiación protegen tu salud mientras obtenemos imágenes nítidas.</p>
+                
+                <ul class="list-unstyled mb-4 d-inline-block text-end">
+                    <li class="mb-2 fs-5">Rayos X de Tórax y Óseos <i class="bi bi-check2-circle text-info ms-2"></i></li>
+                    <li class="mb-2 fs-5">Ecografía Doppler <i class="bi bi-check2-circle text-info ms-2"></i></li>
+                    <li class="mb-2 fs-5">Entrega digital inmediata <i class="bi bi-check2-circle text-info ms-2"></i></li>
+                </ul>
+                <div>
+                    <a href="https://wa.me/584241234567?text=Hola,%20necesito%20Rayos%20X" class="btn btn-light text-primary btn-lg rounded-pill px-5">
+                        Consultar Disponibilidad
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="laboratorio" class="parallax-section position-relative" style="background-image: url('https://images.unsplash.com/photo-1579154204601-01588f351e67?q=80&w=1600&auto=format&fit=crop');">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-75"></div>
+    
+    <div class="container position-relative z-1 text-white py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center mb-3">
+                    <i class="bi bi-virus fs-1 text-success me-3"></i>
+                    <h2 class="display-5 fw-bold mb-0">Laboratorio Clínico</h2>
+                </div>
+                <p class="lead mb-4">Resultados confiables garantizados por nuestro sistema de doble verificación y reactivos de primera calidad.</p>
+                
+                <div class="row g-3 mb-4">
+                    <div class="col-6">
+                        <div class="border border-success rounded p-3 text-center bg-black bg-opacity-25">
+                            <h3 class="fw-bold mb-0">1h</h3>
+                            <small>Pruebas Rápidas</small>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="border border-success rounded p-3 text-center bg-black bg-opacity-25">
+                            <h3 class="fw-bold mb-0">24/7</h3>
+                            <small>Toma de Muestras</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="https://wa.me/584241234567?text=Hola,%20precios%20de%20laboratorio" class="btn btn-success btn-lg rounded-pill px-5">
+                    Ver Lista de Exámenes
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="py-5 bg-white">
     <div class="container">
         <div class="text-center mb-5">
@@ -138,7 +225,9 @@
                             <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Hemograma</li>
                             <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Glucosa</li>
                         </ul>
-                        <button class="btn btn-outline-primary w-100 rounded-pill">Elegir Plan</button>
+                        <a href="https://wa.me/584241234567?text=Hola,%20me%20interesa%20el%20Plan%20Básico%20de%20$49" target="_blank" class="btn btn-outline-primary w-100 rounded-pill">
+                            <i class="bi bi-whatsapp me-2"></i> Solicitar Plan
+                        </a>
                     </div>
                 </div>
             </div>
@@ -155,7 +244,9 @@
                             <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Perfil Lipídico</li>
                             <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Electrocardiograma</li>
                         </ul>
-                        <button class="btn btn-primary w-100 rounded-pill">Elegir Plan</button>
+                        <a href="https://wa.me/584241234567?text=Hola,%20me%20interesa%20el%20Plan%20Intermedio%20de%20$99" target="_blank" class="btn btn-primary w-100 rounded-pill">
+                            <i class="bi bi-whatsapp me-2"></i> Solicitar Plan
+                        </a>
                     </div>
                 </div>
             </div>
@@ -169,7 +260,9 @@
                             <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Ecografía Abdominal</li>
                             <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Consulta Especialista</li>
                         </ul>
-                        <button class="btn btn-outline-primary w-100 rounded-pill">Elegir Plan</button>
+                        <a href="https://wa.me/584241234567?text=Hola,%20me%20interesa%20el%20Plan%20Avanzado%20de%20$149" target="_blank" class="btn btn-outline-primary w-100 rounded-pill">
+                            <i class="bi bi-whatsapp me-2"></i> Solicitar Plan
+                        </a>
                     </div>
                 </div>
             </div>

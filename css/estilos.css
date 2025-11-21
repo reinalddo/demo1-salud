@@ -1,0 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
+/* Clase para el efecto Parallax (Fondo fijo) */
+.parallax-section {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px; /* Altura mínima para que luzca */
+    display: flex;
+    align-items: center;
+}
