@@ -108,6 +108,19 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 </script>
 
+
+<script>
+    // Script para efecto Cristal en el Menú
+    window.addEventListener('scroll', function() {
+        var navbar = document.getElementById('mainNavbar');
+        if (window.scrollY > 50) { // Si bajas más de 50px
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+</script>
+
 </body>
 </html>
 

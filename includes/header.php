@@ -47,8 +47,8 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container">
+<nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark fixed-top transition-all">
+        <div class="container">
         <a class="navbar-brand fw-bold" href="/">Clínica Salud</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
                 aria-controls="mainNav" aria-expanded="false" aria-label="Alternar navegación">
