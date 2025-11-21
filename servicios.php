@@ -209,7 +209,7 @@
 </section>
 
 <section id="pediatria" class="parallax-section position-relative" style="background-image: url('https://images.unsplash.com/photo-1606218566353-29a357eb602d?q=80&w=1600&auto=format&fit=crop');">
-    <div class="position-absolute top-0 start-0 w-100 h-100 bg-warning opacity-90" style="mix-blend-mode: multiply;"></div>
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-warning opacity-75" style="mix-blend-mode: multiply;"></div>
     
     <div class="container position-relative z-1 text-white py-5">
         <div class="row align-items-center">
@@ -218,15 +218,14 @@
                     <h2 class="display-5 fw-bold mb-0 me-3">Pediatría con Amor</h2>
                     <i class="bi bi-emoji-smile-fill fs-1 text-white"></i>
                 </div>
-                <p class="lead mb-4">Creamos un ambiente seguro y divertido para que tus hijos se sientan tranquilos. Desde vacunas hasta control de crecimiento.</p>
+                <p class="lead mb-4 fw-bold" style="text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Creamos un ambiente seguro y divertido. Desde vacunas hasta control de crecimiento.</p>
                 
-                <ul class="list-unstyled mb-4 d-inline-block text-end">
+                <ul class="list-unstyled mb-4 d-inline-block text-end fw-bold">
                     <li class="mb-2 fs-5">Control de Niño Sano <i class="bi bi-check2-circle ms-2"></i></li>
                     <li class="mb-2 fs-5">Vacunación sin dolor <i class="bi bi-check2-circle ms-2"></i></li>
-                    <li class="mb-2 fs-5">Urgencias Pediátricas <i class="bi bi-check2-circle ms-2"></i></li>
                 </ul>
                 <div>
-                    <a href="https://wa.me/584241234567?text=Hola,%20necesito%20cita%20para%20mi%20hijo" class="btn btn-light text-warning fw-bold btn-lg rounded-pill px-5">
+                    <a href="https://wa.me/584241234567?text=Hola,%20necesito%20cita%20para%20mi%20hijo" class="btn btn-light text-warning fw-bold btn-lg rounded-pill px-5 shadow" target="_blank">
                         Agendar Pediatra
                     </a>
                 </div>
@@ -272,7 +271,7 @@
 </section>
 
 <section id="urgencias" class="parallax-section position-relative" style="background-image: url('https://images.unsplash.com/photo-1516574187841-693017951c22?q=80&w=1600&auto=format&fit=crop');">
-    <div class="position-absolute top-0 start-0 w-100 h-100 bg-danger opacity-90" style="mix-blend-mode: multiply;"></div>
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-danger opacity-75"></div>
     
     <div class="container position-relative z-1 text-white py-5">
         <div class="row align-items-center">
@@ -283,14 +282,14 @@
                     <h2 class="display-5 fw-bold mb-0 me-3">Urgencias 24/7</h2>
                     <i class="bi bi-hospital-fill fs-1 text-white"></i>
                 </div>
-                <p class="lead mb-4">Cuando cada segundo cuenta, estamos listos. Unidad de trauma y quirófanos disponibles en todo momento.</p>
+                <p class="lead mb-4 fw-bold">Cuando cada segundo cuenta, estamos listos. Unidad de trauma disponible.</p>
                 
                 <div class="alert alert-light d-inline-block text-danger fw-bold border-0 shadow-sm mb-4">
-                    <i class="bi bi-exclamation-triangle-fill me-2"></i> Atención inmediata sin cita previa
+                    <i class="bi bi-exclamation-triangle-fill me-2"></i> Atención inmediata
                 </div>
                 
                 <div>
-                    <a href="tel:+34123456789" class="btn btn-light text-danger fw-bold btn-lg rounded-pill px-5 shadow">
+                    <a href="tel:+34123456789" class="btn btn-light text-danger fw-bold btn-lg rounded-pill px-5 shadow" target="_blank">
                         <i class="bi bi-telephone-fill me-2"></i> Llamar Emergencia
                     </a>
                 </div>
