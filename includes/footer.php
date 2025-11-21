@@ -45,19 +45,35 @@
 <!-- Bootstrap 5 Bundle -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script>
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
+document.addEventListener("DOMContentLoaded", function() {
+    // Selecciona solo los enlaces que apuntan a un ID (#)
+    var links = document.querySelectorAll('a[href^="#"]');
+    
+    for (var i = 0; i < links.length; i++) {
+        links[i].addEventListener("click", function(e) {
+            var targetId = this.getAttribute("href");
+            
+            // Si es solo "#", no hacemos nada
+            if (targetId === "#") return;
 
-        const targetId = this.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
-
-        if (targetElement) {
-            targetElement.scrollIntoView({
-                behavior: 'smooth'
-            });
-        }
-    });
+            var targetElement = document.querySelector(targetId);
+            
+            if (targetElement) {
+                e.preventDefault(); // Detener el salto brusco
+                
+                // Calcular posición
+                var headerOffset = 70; // Ajuste para que el menú no tape el título
+                var elementPosition = targetElement.getBoundingClientRect().top;
+                var offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+        
+                // Realizar scroll suave
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: "smooth"
+                });
+            }
+        });
+    }
 });
 </script>
 </body>
