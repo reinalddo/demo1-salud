@@ -26,7 +26,7 @@
                             <h4 class="fw-bold mb-0">Cardiología</h4>
                         </div>
                         <p class="text-muted mb-4">Evaluaciones cardíacas completas, monitoreo Holter y electrocardiogramas con especialistas certificados.</p>
-                        <a href="#cardiologia" class="text-primary text-decoration-none fw-bold stretched-link">
+                        <a href="#cardiologia" class="text-primary text-decoration-none fw-bold stretched-link" target="_blank">
                             Más información <i class="bi bi-arrow-right ms-1"></i>
                         </a>
                     </div>
@@ -43,7 +43,7 @@
                             <h4 class="fw-bold mb-0">Rayos X Digitales</h4>
                         </div>
                         <p class="text-muted mb-4">Imágenes de alta resolución con menor exposición a radiación y entrega de resultados digitales inmediatos.</p>
-                        <a href="#rayos-x" class="text-info text-decoration-none fw-bold stretched-link">
+                        <a href="#rayos-x" class="text-info text-decoration-none fw-bold stretched-link" target="_blank">
                             Más información <i class="bi bi-arrow-right ms-1"></i>
                         </a>
                     </div>
@@ -60,7 +60,7 @@
                             <h4 class="fw-bold mb-0">Laboratorio</h4>
                         </div>
                         <p class="text-muted mb-4">Análisis clínicos completos, pruebas hormonales y microbiología con estrictos controles de calidad.</p>
-                        <a href="#laboratorio" class="text-success text-decoration-none fw-bold stretched-link">
+                        <a href="#laboratorio" class="text-success text-decoration-none fw-bold stretched-link" target="_blank">
                             Más información <i class="bi bi-arrow-right ms-1"></i>
                         </a>
                     </div>
@@ -77,7 +77,7 @@
                             <h4 class="fw-bold mb-0">Pediatría</h4>
                         </div>
                         <p class="text-muted mb-4">Control de niño sano, esquema de vacunación completo y atención de urgencias infantiles con calidez.</p>
-                        <a href="#" class="text-warning text-decoration-none fw-bold stretched-link">
+                        <a href="#pediatria" class="text-warning text-decoration-none fw-bold stretched-link" target="_blank">
                             Más información <i class="bi bi-arrow-right ms-1"></i>
                         </a>
                     </div>
@@ -94,7 +94,7 @@
                             <h4 class="fw-bold mb-0">Odontología</h4>
                         </div>
                         <p class="text-muted mb-4">Diseño de sonrisa, ortodoncia, endodoncia y cirugía maxilofacial con equipos indoloros.</p>
-                        <a href="#" style="color: #6f42c1;" class="text-decoration-none fw-bold stretched-link">
+                        <a href="#odontologia" style="color: #6f42c1;" class="text-decoration-none fw-bold stretched-link" target="_blank">
                             Más información <i class="bi bi-arrow-right ms-1"></i>
                         </a>
                     </div>
@@ -111,7 +111,7 @@
                             <h4 class="fw-bold mb-0">Urgencias 24/7</h4>
                         </div>
                         <p class="text-muted mb-4">Unidad de trauma y reanimación disponible todo el día, todos los días del año.</p>
-                        <a href="#" class="text-danger text-decoration-none fw-bold stretched-link">
+                        <a href="#urgencias" class="text-danger text-decoration-none fw-bold stretched-link" target="_blank">
                             Más información <i class="bi bi-arrow-right ms-1"></i>
                         </a>
                     </div>
@@ -203,6 +203,97 @@
                 <a href="https://wa.me/584241234567?text=Hola,%20precios%20de%20laboratorio" class="btn btn-success btn-lg rounded-pill px-5">
                     Ver Lista de Exámenes
                 </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="pediatria" class="parallax-section position-relative" style="background-image: url('https://images.unsplash.com/photo-1606218566353-29a357eb602d?q=80&w=1600&auto=format&fit=crop');">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-warning opacity-90" style="mix-blend-mode: multiply;"></div>
+    
+    <div class="container position-relative z-1 text-white py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6"></div> <div class="col-lg-6 text-end">
+                <div class="d-flex align-items-center justify-content-end mb-3">
+                    <h2 class="display-5 fw-bold mb-0 me-3">Pediatría con Amor</h2>
+                    <i class="bi bi-emoji-smile-fill fs-1 text-white"></i>
+                </div>
+                <p class="lead mb-4">Creamos un ambiente seguro y divertido para que tus hijos se sientan tranquilos. Desde vacunas hasta control de crecimiento.</p>
+                
+                <ul class="list-unstyled mb-4 d-inline-block text-end">
+                    <li class="mb-2 fs-5">Control de Niño Sano <i class="bi bi-check2-circle ms-2"></i></li>
+                    <li class="mb-2 fs-5">Vacunación sin dolor <i class="bi bi-check2-circle ms-2"></i></li>
+                    <li class="mb-2 fs-5">Urgencias Pediátricas <i class="bi bi-check2-circle ms-2"></i></li>
+                </ul>
+                <div>
+                    <a href="https://wa.me/584241234567?text=Hola,%20necesito%20cita%20para%20mi%20hijo" class="btn btn-light text-warning fw-bold btn-lg rounded-pill px-5">
+                        Agendar Pediatra
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="odontologia" class="parallax-section position-relative" style="background-image: url('https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=1600&auto=format&fit=crop');">
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: #6f42c1; opacity: 0.85;"></div>
+    
+    <div class="container position-relative z-1 text-white py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center mb-3">
+                    <i class="bi bi-gem fs-1 text-white me-3"></i>
+                    <h2 class="display-5 fw-bold mb-0">Odontología Familiar</h2>
+                </div>
+                <p class="lead mb-4">Diseñamos sonrisas perfectas con tratamientos indoloros. Tecnología láser y materiales estéticos de alta duración.</p>
+                
+                <div class="row g-3 mb-4">
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center bg-white bg-opacity-10 p-3 rounded">
+                            <i class="bi bi-stars fs-2 me-3"></i>
+                            <span>Diseño de Sonrisa</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center bg-white bg-opacity-10 p-3 rounded">
+                            <i class="bi bi-shield-check fs-2 me-3"></i>
+                            <span>Ortodoncia Invisible</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="https://wa.me/584241234567?text=Hola,%20quiero%20cita%20odontológica" class="btn btn-outline-light btn-lg rounded-pill px-5">
+                    Valoración Dental
+                </a>
+            </div>
+            <div class="col-lg-6"></div>
+        </div>
+    </div>
+</section>
+
+<section id="urgencias" class="parallax-section position-relative" style="background-image: url('https://images.unsplash.com/photo-1516574187841-693017951c22?q=80&w=1600&auto=format&fit=crop');">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-danger opacity-90" style="mix-blend-mode: multiply;"></div>
+    
+    <div class="container position-relative z-1 text-white py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6"></div>
+            
+            <div class="col-lg-6 text-end">
+                <div class="d-flex align-items-center justify-content-end mb-3">
+                    <h2 class="display-5 fw-bold mb-0 me-3">Urgencias 24/7</h2>
+                    <i class="bi bi-hospital-fill fs-1 text-white"></i>
+                </div>
+                <p class="lead mb-4">Cuando cada segundo cuenta, estamos listos. Unidad de trauma y quirófanos disponibles en todo momento.</p>
+                
+                <div class="alert alert-light d-inline-block text-danger fw-bold border-0 shadow-sm mb-4">
+                    <i class="bi bi-exclamation-triangle-fill me-2"></i> Atención inmediata sin cita previa
+                </div>
+                
+                <div>
+                    <a href="tel:+34123456789" class="btn btn-light text-danger fw-bold btn-lg rounded-pill px-5 shadow">
+                        <i class="bi bi-telephone-fill me-2"></i> Llamar Emergencia
+                    </a>
+                </div>
             </div>
         </div>
     </div>
