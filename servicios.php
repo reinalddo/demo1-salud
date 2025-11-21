@@ -302,64 +302,100 @@
     </div>
 </section>
 
-<section class="py-5 bg-white">
+<section class="py-5" style="background: linear-gradient(to bottom, #f8f9fa, #e9ecef);">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="fw-bold">Chequeos Preventivos</h2>
-            <p class="text-muted">Invierte en tu salud con nuestros paquetes integrales</p>
+            <h2 class="fw-bold display-5">Chequeos Preventivos</h2>
+            <p class="text-muted lead">Invierte en tu tranquilidad con nuestros paquetes todo incluido</p>
         </div>
+        
         <div class="row justify-content-center align-items-center g-4">
+            
             <div class="col-md-4">
-                <div class="card border-0 shadow-sm h-100">
-                    <div class="card-body p-4 text-center">
-                        <h5 class="fw-bold text-muted">Básico</h5>
-                        <h2 class="display-4 fw-bold text-dark">$49</h2>
-                        <ul class="list-unstyled mt-3 mb-4 text-start mx-auto" style="max-width: 200px;">
-                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Consulta General</li>
-                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Hemograma</li>
-                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Glucosa</li>
+                <div class="card border-0 shadow-lg h-100 hover-lift" style="border-top: 5px solid #6c757d !important; border-radius: 15px;">
+                    <div class="card-body p-5 text-center">
+                        <div class="bg-light rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">
+                            <i class="bi bi-file-medical fs-1 text-secondary"></i>
+                        </div>
+                        
+                        <h5 class="fw-bold text-secondary mb-0">Plan Básico</h5>
+                        <div class="my-3">
+                            <span class="display-4 fw-bold text-dark">$49</span>
+                        </div>
+                        <p class="text-muted small mb-4">Ideal para control anual rutinario</p>
+                        
+                        <ul class="list-unstyled text-start mx-auto mb-4" style="max-width: 220px;">
+                            <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Consulta Médica General</li>
+                            <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Hemograma Completo</li>
+                            <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Glucosa y Colesterol</li>
+                            <li class="mb-3 text-muted text-decoration-line-through"><i class="bi bi-x-circle me-2"></i>Electrocardiograma</li>
                         </ul>
-                        <a href="https://wa.me/584241234567?text=Hola,%20me%20interesa%20el%20Plan%20Básico%20de%20$49" target="_blank" class="btn btn-outline-primary w-100 rounded-pill">
-                            <i class="bi bi-whatsapp me-2"></i> Solicitar Plan
+                        
+                        <a href="https://wa.me/584241234567?text=Hola,%20me%20interesa%20el%20Plan%20Básico" target="_blank" class="btn btn-outline-secondary w-100 rounded-pill py-2 fw-bold">
+                            Solicitar Plan
                         </a>
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4">
-                <div class="card border-primary border-2 shadow h-100 transform-scale">
-                    <div class="card-header bg-primary text-white text-center py-2">
-                        <small class="fw-bold text-uppercase">Más Popular</small>
+                <div class="card border-0 shadow-lg position-relative transform-scale" style="z-index: 10; transform: scale(1.05); border-radius: 15px;">
+                    <div class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-primary px-4 py-2 shadow-sm text-uppercase">
+                        Más Solicitado
                     </div>
-                    <div class="card-body p-4 text-center">
-                        <h5 class="fw-bold text-primary">Intermedio</h5>
-                        <h2 class="display-4 fw-bold text-dark">$99</h2>
-                        <ul class="list-unstyled mt-3 mb-4 text-start mx-auto" style="max-width: 200px;">
-                            <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Todo lo del Básico</li>
-                            <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Perfil Lipídico</li>
-                            <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Electrocardiograma</li>
+                    
+                    <div class="card-body p-5 text-center bg-white rounded-3" style="border: 2px solid #0d6efd;">
+                        <div class="bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 90px; height: 90px;">
+                            <i class="bi bi-heart-pulse-fill fs-1 text-primary"></i>
+                        </div>
+                        
+                        <h5 class="fw-bold text-primary mb-0">Plan Intermedio</h5>
+                        <div class="my-3">
+                            <span class="display-3 fw-bold text-dark">$99</span>
+                        </div>
+                        <p class="text-muted small mb-4">El balance perfecto para tu salud</p>
+                        
+                        <ul class="list-unstyled text-start mx-auto mb-5" style="max-width: 240px;">
+                            <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i><strong>Todo lo del Básico</strong></li>
+                            <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i>Perfil Lipídico Completo</li>
+                            <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i>Electrocardiograma</li>
+                            <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i>Prueba de Función Hepática</li>
                         </ul>
-                        <a href="https://wa.me/584241234567?text=Hola,%20me%20interesa%20el%20Plan%20Intermedio%20de%20$99" target="_blank" class="btn btn-primary w-100 rounded-pill">
-                            <i class="bi bi-whatsapp me-2"></i> Solicitar Plan
+                        
+                        <a href="https://wa.me/584241234567?text=Hola,%20me%20interesa%20el%20Plan%20Intermedio" target="_blank" class="btn btn-primary w-100 rounded-pill py-3 fw-bold shadow">
+                            Solicitar Plan Ahora
                         </a>
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4">
-                <div class="card border-0 shadow-sm h-100">
-                    <div class="card-body p-4 text-center">
-                        <h5 class="fw-bold text-muted">Avanzado</h5>
-                        <h2 class="display-4 fw-bold text-dark">$149</h2>
-                        <ul class="list-unstyled mt-3 mb-4 text-start mx-auto" style="max-width: 200px;">
-                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Todo lo del Intermedio</li>
-                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Ecografía Abdominal</li>
-                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Consulta Especialista</li>
+                <div class="card border-0 shadow-lg h-100 hover-lift" style="border-top: 5px solid #198754 !important; border-radius: 15px;">
+                    <div class="card-body p-5 text-center">
+                        <div class="bg-success bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">
+                            <i class="bi bi-clipboard2-pulse-fill fs-1 text-success"></i>
+                        </div>
+                        
+                        <h5 class="fw-bold text-success mb-0">Plan Avanzado</h5>
+                        <div class="my-3">
+                            <span class="display-4 fw-bold text-dark">$149</span>
+                        </div>
+                        <p class="text-muted small mb-4">Evaluación profunda y especializada</p>
+                        
+                        <ul class="list-unstyled text-start mx-auto mb-4" style="max-width: 220px;">
+                            <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>Todo lo del Intermedio</strong></li>
+                            <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Ecografía Abdominal</li>
+                            <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Consulta con Especialista</li>
+                            <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Espirometría</li>
                         </ul>
-                        <a href="https://wa.me/584241234567?text=Hola,%20me%20interesa%20el%20Plan%20Avanzado%20de%20$149" target="_blank" class="btn btn-outline-primary w-100 rounded-pill">
-                            <i class="bi bi-whatsapp me-2"></i> Solicitar Plan
+                        
+                        <a href="https://wa.me/584241234567?text=Hola,%20me%20interesa%20el%20Plan%20Avanzado" target="_blank" class="btn btn-outline-success w-100 rounded-pill py-2 fw-bold">
+                            Solicitar Plan
                         </a>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
