@@ -1,12 +1,16 @@
 <?php include 'includes/header.php'; ?>
 
 <main>
-    <section class="bg-light py-5">
-        <div class="container">
-            <h1 class="text-center mb-3">Quiénes Somos</h1>
-            <p class="text-center text-muted">Somos una clínica comprometida con la salud integral de nuestra comunidad, ofreciendo atención profesional y humana desde hace años.</p>
-        </div>
-    </section>
+<header class="py-5 bg-dark position-relative" style="background-image: url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=1600&auto=format&fit=crop'); background-size: cover; background-position: center;">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-primary opacity-75"></div>
+    
+    <div class="container position-relative py-5 text-center text-white">
+        <h1 class="display-4 fw-bold">Quiénes Somos</h1>
+        <p class="lead mx-auto" style="max-width: 700px;">
+            Más que una clínica, somos una familia comprometida con la salud integral de nuestra comunidad desde hace más de 20 años.
+        </p>
+    </div>
+</header>
 
     <section class="py-5">
         <div class="container">

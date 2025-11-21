@@ -14,25 +14,28 @@
     @media (max-width:768px){ .hero .hero-inner { flex-direction:column; text-align:center; } }
 </style>
 
-<section class="bg-light py-5">
-    <div class="container">
-        <div class="row align-items-center mb-5">
-            <div class="col-lg-7 text-center text-lg-start">
-                <h1 class="display-4 fw-bold text-primary">Tu Salud, Nuestra Prioridad</h1>
-                <p class="lead text-muted mb-4 pe-lg-5">Atención integral y humana con profesionales especializados. Reserva tu consulta hoy mismo y recibe el mejor cuidado para ti y tu familia.</p>
-                <div class="d-flex gap-2 justify-content-center justify-content-lg-start">
-                    <a href="contacto" class="btn btn-primary btn-lg px-4">Agendar Cita</a>
-                    <a href="servicios" class="btn btn-outline-secondary btn-lg px-4">Ver Servicios</a>
+<section class="py-5" style="background: linear-gradient(135deg, #0062E6, #33AEFF);">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6 text-white">
+                <h1 class="display-3 fw-bold mb-3">Tu Salud, <br>Nuestra Prioridad</h1>
+                <p class="lead mb-4 opacity-75">Atención médica de clase mundial con tecnología de punta y calidez humana. Tu bienestar no puede esperar.</p>
+                <div class="d-flex gap-3">
+                    <a href="contacto" class="btn btn-light btn-lg px-4 text-primary fw-bold shadow">Agendar Cita</a>
+                    <a href="servicios" class="btn btn-outline-light btn-lg px-4">Ver Servicios</a>
                 </div>
             </div>
-            <div class="col-lg-5 mt-4 mt-lg-0">
-                <img src="https://images.unsplash.com/photo-1638202993928-7267aad84c31?q=80&w=800&auto=format&fit=crop"
-                     alt="Doctora atendiendo paciente"
-                     class="img-fluid rounded-3 shadow-lg w-75 mx-auto d-block">
+            <div class="col-lg-6 mt-5 mt-lg-0 text-center">
+                <img src="https://png.pngtree.com/png-vector/20230928/ourmid/pngtree-young-afro-professional-doctor-png-image_10148632.png" 
+                     alt="Doctora confianza" 
+                     class="img-fluid" 
+                     style="max-height: 500px; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.2));">
             </div>
         </div>
     </div>
 </section>
+
+
 <section class="services-row" aria-label="Servicios destacados">
     <div class="row g-4">
         <div class="col-md-4">
