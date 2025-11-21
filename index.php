@@ -16,17 +16,19 @@
 
 <section class="bg-light py-5">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
+        <div class="row align-items-center mb-5">
+            <div class="col-lg-7 text-center text-lg-start">
                 <h1 class="display-4 fw-bold text-primary">Tu Salud, Nuestra Prioridad</h1>
-                <p class="lead text-muted mb-4">Atención integral y humana con profesionales especializados. Reserva tu consulta hoy mismo y recibe el mejor cuidado para ti y tu familia.</p>
-                <a href="contacto" class="btn btn-primary btn-lg px-4">Agendar Cita</a>
-                <a href="servicios" class="btn btn-outline-secondary btn-lg px-4 ms-2">Ver Servicios</a>
+                <p class="lead text-muted mb-4 pe-lg-5">Atención integral y humana con profesionales especializados. Reserva tu consulta hoy mismo y recibe el mejor cuidado para ti y tu familia.</p>
+                <div class="d-flex gap-2 justify-content-center justify-content-lg-start">
+                    <a href="contacto" class="btn btn-primary btn-lg px-4">Agendar Cita</a>
+                    <a href="servicios" class="btn btn-outline-secondary btn-lg px-4">Ver Servicios</a>
+                </div>
             </div>
-            <div class="col-lg-6 mt-4 mt-lg-0">
-                <img src="https://images.unsplash.com/photo-1638202993928-7267aad84c31?q=80&w=800&auto=format&fit=crop" 
-                     alt="Doctora atendiendo paciente" 
-                     class="img-fluid rounded-3 shadow-lg">
+            <div class="col-lg-5 mt-4 mt-lg-0">
+                <img src="https://images.unsplash.com/photo-1638202993928-7267aad84c31?q=80&w=800&auto=format&fit=crop"
+                     alt="Doctora atendiendo paciente"
+                     class="img-fluid rounded-3 shadow-lg w-75 mx-auto d-block">
             </div>
         </div>
     </div>

@@ -23,66 +23,82 @@
         </div>
     </section>
 
-    <section class="py-5 bg-white">
-        <div class="container text-center">
-            <h2 class="mb-4">Nuestros Valores</h2>
-            <div class="row g-4 justify-content-center">
-                <div class="col-md-4">
-                    <div class="card p-4 h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Compromiso</h5>
-                            <p class="card-text text-muted">Atención dedicada y responsable con cada paciente y su familia.</p>
-                        </div>
-                    </div>
+<section class="py-5 bg-white">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col">
+                <h2 class="fw-bold text-primary">Nuestros Valores</h2>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm p-4 text-center">
+                    <div class="fs-1 text-primary mb-3">
+                        <i class="bi bi-heart-pulse-fill"></i> </div>
+                    <h5 class="card-title fw-bold">Compromiso</h5>
+                    <p class="card-text text-muted">Atención dedicada y responsable con cada paciente y su familia.</p>
                 </div>
-                <div class="col-md-4">
-                    <div class="card p-4 h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Tecnología</h5>
-                            <p class="card-text text-muted">Equipamiento moderno para diagnósticos precisos y tratamiento eficiente.</p>
-                        </div>
-                    </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm p-4 text-center">
+                    <div class="fs-1 text-primary mb-3">
+                        <i class="bi bi-cpu-fill"></i> </div>
+                    <h5 class="card-title fw-bold">Tecnología</h5>
+                    <p class="card-text text-muted">Equipamiento moderno para diagnósticos precisos y tratamiento eficiente.</p>
                 </div>
-                <div class="col-md-4">
-                    <div class="card p-4 h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Calidez Humana</h5>
-                            <p class="card-text text-muted">Trato cercano y empático en cada consulta y procedimiento.</p>
-                        </div>
-                    </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm p-4 text-center">
+                    <div class="fs-1 text-primary mb-3">
+                        <i class="bi bi-people-fill"></i> </div>
+                    <h5 class="card-title fw-bold">Calidez Humana</h5>
+                    <p class="card-text text-muted">Trato cercano y empático en cada consulta y procedimiento.</p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Conoce a tus especialistas</h2>
-            <div class="row g-4 justify-content-center">
-                <div class="col-6 col-sm-4 col-md-3 text-center">
-                    <img src="https://via.placeholder.com/150" alt="Dr. Ana Pérez" class="rounded-circle img-fluid mb-2" style="width:120px;height:120px;object-fit:cover;">
-                    <h6 class="mb-0">Dra. Ana Pérez</h6>
-                    <small class="text-muted">Cardiología</small>
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col">
+                <h2 class="fw-bold text-primary">Conoce a tus especialistas</h2>
+                <p class="text-muted">Un equipo multidisciplinario a tu servicio</p>
+            </div>
+        </div>
+        <div class="row g-4 text-center">
+            <div class="col-md-6 col-lg-3">
+                <div class="bg-white rounded-3 p-4 shadow-sm h-100">
+                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Dra. Ana Pérez" class="rounded-circle mb-3" width="120" height="120">
+                    <h5 class="fw-bold mb-1">Dra. Ana Pérez</h5>
+                    <p class="text-primary mb-0">Cardiología</p>
                 </div>
-                <div class="col-6 col-sm-4 col-md-3 text-center">
-                    <img src="https://via.placeholder.com/150" alt="Dr. Luis Gómez" class="rounded-circle img-fluid mb-2" style="width:120px;height:120px;object-fit:cover;">
-                    <h6 class="mb-0">Dr. Luis Gómez</h6>
-                    <small class="text-muted">Pediatría</small>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="bg-white rounded-3 p-4 shadow-sm h-100">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Dr. Luis Gómez" class="rounded-circle mb-3" width="120" height="120">
+                    <h5 class="fw-bold mb-1">Dr. Luis Gómez</h5>
+                    <p class="text-primary mb-0">Pediatría</p>
                 </div>
-                <div class="col-6 col-sm-4 col-md-3 text-center">
-                    <img src="https://via.placeholder.com/150" alt="Dra. Marta Ruiz" class="rounded-circle img-fluid mb-2" style="width:120px;height:120px;object-fit:cover;">
-                    <h6 class="mb-0">Dra. Marta Ruiz</h6>
-                    <small class="text-muted">Medicina General</small>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="bg-white rounded-3 p-4 shadow-sm h-100">
+                    <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Dra. Marta Ruiz" class="rounded-circle mb-3" width="120" height="120">
+                    <h5 class="fw-bold mb-1">Dra. Marta Ruiz</h5>
+                    <p class="text-primary mb-0">Medicina General</p>
                 </div>
-                <div class="col-6 col-sm-4 col-md-3 text-center">
-                    <img src="https://via.placeholder.com/150" alt="Dr. Carlos Méndez" class="rounded-circle img-fluid mb-2" style="width:120px;height:120px;object-fit:cover;">
-                    <h6 class="mb-0">Dr. Carlos Méndez</h6>
-                    <small class="text-muted">Laboratorio</small>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="bg-white rounded-3 p-4 shadow-sm h-100">
+                    <img src="https://randomuser.me/api/portraits/men/85.jpg" alt="Dr. Carlos Méndez" class="rounded-circle mb-3" width="120" height="120">
+                    <h5 class="fw-bold mb-1">Dr. Carlos Méndez</h5>
+                    <p class="text-primary mb-0">Laboratorio</p>
                 </div>
             </div>
         </div>
-    </section>
-
+    </div>
+</section>
 </main>
 
 <?php include 'includes/footer.php'; ?>
