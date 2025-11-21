@@ -44,38 +44,63 @@
 
 <!-- Bootstrap 5 Bundle -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    // Selecciona solo los enlaces que apuntan a un ID (#)
+    // Selecciona enlaces que inician con #
     var links = document.querySelectorAll('a[href^="#"]');
     
     for (var i = 0; i < links.length; i++) {
         links[i].addEventListener("click", function(e) {
             var targetId = this.getAttribute("href");
             
-            // Si es solo "#", no hacemos nada
-            if (targetId === "#") return;
+            // 1. Si es un enlace vacío (#), evitamos que salte arriba
+            if (targetId === "#") {
+                e.preventDefault();
+                return;
+            }
 
             var targetElement = document.querySelector(targetId);
             
             if (targetElement) {
-                e.preventDefault(); // Detener el salto brusco
+                e.preventDefault(); // Detenemos el salto automático
                 
-                // Calcular posición
-                var headerOffset = 70; // Ajuste para que el menú no tape el título
-                var elementPosition = targetElement.getBoundingClientRect().top;
-                var offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-        
-                // Realizar scroll suave
-                window.scrollTo({
-                    top: offsetPosition,
-                    behavior: "smooth"
-                });
+                // 2. Configuración de la animación manual
+                var targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+                var startPosition = window.pageYOffset;
+                var headerOffset = 70; // Espacio para el menú fijo
+                var distance = targetPosition - startPosition - headerOffset;
+                var duration = 800; // Duración en milisegundos (0.8 segundos)
+                var startTime = null;
+
+                // 3. Función matemática de suavizado (Ease In-Out)
+                function animation(currentTime) {
+                    if (startTime === null) startTime = currentTime;
+                    var timeElapsed = currentTime - startTime;
+                    
+                    // Calcula cuánto mover en este cuadro
+                    var run = ease(timeElapsed, startPosition, distance, duration);
+                    
+                    window.scrollTo(0, run);
+
+                    if (timeElapsed < duration) requestAnimationFrame(animation);
+                }
+
+                // Fórmula de aceleración para que se sienta natural
+                function ease(t, b, c, d) {
+                    t /= d / 2;
+                    if (t < 1) return c / 2 * t * t + b;
+                    t--;
+                    return -c / 2 * (t * (t - 2) - 1) + b;
+                }
+
+                requestAnimationFrame(animation);
             }
         });
     }
 });
 </script>
+
 </body>
 </html>
 
