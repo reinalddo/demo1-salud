@@ -1,155 +1,152 @@
 <?php include 'includes/header.php'; ?>
 
 <main>
-    <section class="hero mb-5" style="position:relative;background-image:url('assets/img/servicios-bg.jpg');background-size:cover;background-position:center;color:#fff;min-height:280px;display:flex;align-items:center;">
-        <div style="position:absolute;inset:0;background:rgba(3,85,162,0.55);"></div>
-        <div class="container" style="position:relative;z-index:2;">
-            <div class="row">
-                <div class="col-lg-8">
-                    <h1 class="display-4">Nuestros Servicios</h1>
-                    <p class="lead">Contamos con tecnología de punta y equipos especializados para brindar diagnósticos precisos y atención integral, garantizando seguridad y comodidad en cada procedimiento.</p>
+<header class="py-5 bg-dark position-relative" style="background-image: url('https://images.unsplash.com/photo-1516549655169-df83a0929514?q=80&w=1600&auto=format&fit=crop'); background-size: cover; background-position: center;">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-primary opacity-80" style="opacity: 0.85;"></div>
+    <div class="container position-relative py-5 text-center text-white">
+        <h1 class="display-4 fw-bold">Nuestros Servicios</h1>
+        <p class="lead mx-auto" style="max-width: 700px;">
+            Tecnología de vanguardia y especialistas certificados para brindarte diagnósticos precisos.
+        </p>
+    </div>
+</header>
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm p-4 hover-lift transition-all">
+                    <div class="mb-3">
+                        <span class="d-inline-block bg-primary bg-opacity-10 p-3 rounded-circle text-primary">
+                            <i class="bi bi-heart-pulse-fill fs-2"></i>
+                        </span>
+                    </div>
+                    <h4 class="fw-bold">Cardiología</h4>
+                    <p class="text-muted mb-0">Evaluaciones cardíacas completas con electrocardiograma y monitoreo especializado.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm p-4 hover-lift">
+                    <div class="mb-3">
+                        <span class="d-inline-block bg-primary bg-opacity-10 p-3 rounded-circle text-primary">
+                            <i class="bi bi-lungs-fill fs-2"></i>
+                        </span>
+                    </div>
+                    <h4 class="fw-bold">Rayos X Digitales</h4>
+                    <p class="text-muted mb-0">Imágenes de alta resolución con menor exposición y entrega inmediata.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm p-4 hover-lift">
+                    <div class="mb-3">
+                        <span class="d-inline-block bg-primary bg-opacity-10 p-3 rounded-circle text-primary">
+                            <i class="bi bi-virus fs-2"></i>
+                        </span>
+                    </div>
+                    <h4 class="fw-bold">Laboratorio Clínico</h4>
+                    <p class="text-muted mb-0">Análisis de rutina y especializados con control de calidad estricto.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm p-4 hover-lift">
+                    <div class="mb-3">
+                        <span class="d-inline-block bg-primary bg-opacity-10 p-3 rounded-circle text-primary">
+                            <i class="bi bi-emoji-smile-fill fs-2"></i>
+                        </span>
+                    </div>
+                    <h4 class="fw-bold">Pediatría</h4>
+                    <p class="text-muted mb-0">Control de niño sano, vacunación y atención de urgencias infantiles.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm p-4 hover-lift">
+                    <div class="mb-3">
+                        <span class="d-inline-block bg-primary bg-opacity-10 p-3 rounded-circle text-primary">
+                            <i class="bi bi-gem fs-2"></i>
+                        </span>
+                    </div>
+                    <h4 class="fw-bold">Odontología</h4>
+                    <p class="text-muted mb-0">Limpiezas, ortodoncia y cirugía maxilofacial con equipos modernos.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm p-4 hover-lift">
+                    <div class="mb-3">
+                        <span class="d-inline-block bg-primary bg-opacity-10 p-3 rounded-circle text-primary">
+                            <i class="bi bi-hospital-fill fs-2"></i>
+                        </span>
+                    </div>
+                    <h4 class="fw-bold">Urgencias 24/7</h4>
+                    <p class="text-muted mb-0">Atención inmediata para emergencias médicas y quirúrgicas.</p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="container py-5">
-        <h2 class="mb-4">Servicios</h2>
-        <div class="row">
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 text-center border-0">
-                    <div class="card-body">
-                        <i class="bi bi-heart-pulse text-primary" style="font-size:48px;"></i>
-                        <h5 class="mt-3">Cardiología</h5>
-                        <p class="text-muted service-desc">Evaluaciones cardiacas completas con electrocardiograma, ecocardiografía y monitoreo para el diagnóstico y seguimiento de enfermedades cardiovasculares.</p>
+<section class="py-5 bg-white">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Chequeos Preventivos</h2>
+            <p class="text-muted">Invierte en tu salud con nuestros paquetes integrales</p>
+        </div>
+        <div class="row justify-content-center align-items-center g-4">
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body p-4 text-center">
+                        <h5 class="fw-bold text-muted">Básico</h5>
+                        <h2 class="display-4 fw-bold text-dark">$49</h2>
+                        <ul class="list-unstyled mt-3 mb-4 text-start mx-auto" style="max-width: 200px;">
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Consulta General</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Hemograma</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Glucosa</li>
+                        </ul>
+                        <button class="btn btn-outline-primary w-100 rounded-pill">Elegir Plan</button>
                     </div>
                 </div>
             </div>
-
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 text-center border-0">
-                    <div class="card-body">
-                        <i class="bi bi-x-circle text-primary" style="font-size:48px;"></i>
-                        <h5 class="mt-3">Rayos X</h5>
-                        <p class="text-muted service-desc">Equipo digital de última generación para imágenes radiológicas de alta resolución, con tiempos de exposición reducidos y mayor precisión diagnóstica.</p>
+            <div class="col-md-4">
+                <div class="card border-primary border-2 shadow h-100 transform-scale">
+                    <div class="card-header bg-primary text-white text-center py-2">
+                        <small class="fw-bold text-uppercase">Más Popular</small>
+                    </div>
+                    <div class="card-body p-4 text-center">
+                        <h5 class="fw-bold text-primary">Intermedio</h5>
+                        <h2 class="display-4 fw-bold text-dark">$99</h2>
+                        <ul class="list-unstyled mt-3 mb-4 text-start mx-auto" style="max-width: 200px;">
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Todo lo del Básico</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Perfil Lipídico</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Electrocardiograma</li>
+                        </ul>
+                        <button class="btn btn-primary w-100 rounded-pill">Elegir Plan</button>
                     </div>
                 </div>
             </div>
-
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 text-center border-0">
-                    <div class="card-body">
-                        <i class="bi bi-microscope text-primary" style="font-size:48px;"></i>
-                        <h5 class="mt-3">Laboratorio</h5>
-                        <p class="text-muted service-desc">Análisis clínicos completos con procesos automatizados y control de calidad estricto para resultados confiables y rápidos.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 text-center border-0">
-                    <div class="card-body">
-                        <i class="bi bi-people text-primary" style="font-size:48px;"></i>
-                        <h5 class="mt-3">Pediatría</h5>
-                        <p class="text-muted service-desc">Atención integral para niños y adolescentes, controles de crecimiento, vacunación y manejo de enfermedades agudas y crónicas.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 text-center border-0">
-                    <div class="card-body">
-                        <i class="bi bi-tooth text-primary" style="font-size:48px;"></i>
-                        <h5 class="mt-3">Odontología</h5>
-                        <p class="text-muted service-desc">Servicios odontológicos generales y especializados, desde limpiezas y restauraciones hasta tratamientos estéticos y rehabilitación oral.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 text-center border-0">
-                    <div class="card-body">
-                        <i class="bi bi-bandaid text-primary" style="font-size:48px;"></i>
-                        <h5 class="mt-3">Urgencias</h5>
-                        <p class="text-muted service-desc">Atención de urgencias 24/7 con personal capacitado y protocolos de respuesta inmediata para estabilización y tratamiento oportuno.</p>
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body p-4 text-center">
+                        <h5 class="fw-bold text-muted">Avanzado</h5>
+                        <h2 class="display-4 fw-bold text-dark">$149</h2>
+                        <ul class="list-unstyled mt-3 mb-4 text-start mx-auto" style="max-width: 200px;">
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Todo lo del Intermedio</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Ecografía Abdominal</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Consulta Especialista</li>
+                        </ul>
+                        <button class="btn btn-outline-primary w-100 rounded-pill">Elegir Plan</button>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="bg-light py-5">
-        <div class="container">
-            <h2 class="mb-4">Chequeos Preventivos</h2>
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <div class="card price-card h-100">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Básico</h5>
-                            <div class="price my-3" style="font-size:28px;font-weight:700;">$49</div>
-                            <ul class="list-unstyled text-start mb-4">
-                                <li>• Consulta médica general</li>
-                                <li>• Hemograma básico</li>
-                                <li>• Electrocardiograma</li>
-                            </ul>
-                            <a href="#" class="btn btn-outline-primary w-100">Seleccionar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 mb-4">
-                    <div class="card price-card featured h-100" style="transform:translateY(-8px);box-shadow:0 8px 20px rgba(3,85,162,0.15);border:1px solid rgba(3,85,162,0.15);">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Intermedio</h5>
-                            <div class="price my-3" style="font-size:32px;font-weight:800;color:#0355A2;">$99</div>
-                            <ul class="list-unstyled text-start mb-4">
-                                <li>• Todo lo del Básico</li>
-                                <li>• Perfil lipídico completo</li>
-                                <li>• Pruebas de función hepática</li>
-                            </ul>
-                            <a href="#" class="btn btn-primary w-100">Seleccionar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 mb-4">
-                    <div class="card price-card h-100">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Avanzado</h5>
-                            <div class="price my-3" style="font-size:28px;font-weight:700;">$149</div>
-                            <ul class="list-unstyled text-start mb-4">
-                                <li>• Todo lo del Intermedio</li>
-                                <li>• Estudios de imagen complementarios</li>
-                                <li>• Consulta de especialista incluida</li>
-                            </ul>
-                            <a href="#" class="btn btn-outline-primary w-100">Seleccionar</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-5" style="background:linear-gradient(90deg,#0355A2 0%, #0676D6 100%);color:#fff;">
-        <div class="container text-center">
-            <h3 class="mb-3">¿Listo para cuidar tu salud?</h3>
-            <p class="mb-4">Agenda tu cita con nuestros especialistas y accede a chequeos con tecnología de vanguardia.</p>
-            <a href="#" class="btn btn-light btn-lg">Agendar cita</a>
-        </div>
-    </section>
-
-    <style>
-        .service-desc {
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        .bi { vertical-align: -.125em; }
-        @media (max-width:767.98px) {
-            .hero { min-height:220px; padding: 2rem 0; }
-        }
-    </style>
-    </main>
+<section class="py-5 bg-primary text-white text-center">
+    <div class="container">
+        <h2 class="fw-bold">¿Listo para cuidar tu salud?</h2>
+        <p class="lead mb-4">Agenda tu cita con nuestros especialistas hoy mismo.</p>
+        <a href="contacto" class="btn btn-light text-primary btn-lg fw-bold shadow">Agendar Cita</a>
+    </div>
+</section>
+</main>
 
 <?php include 'includes/footer.php'; ?>
