@@ -274,7 +274,7 @@
 
 <section id="urgencias" class="position-relative py-5 overflow-hidden" style="min-height: 500px; display: flex; align-items: center;">
     
-    <img src="https://images.unsplash.com/photo-1587351021759-3e566b92f028?q=80&w=1600&auto=format&fit=crop" 
+    <img src="https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=1600" 
          alt="Ambulancia Urgencias" 
          class="position-absolute top-0 start-0 w-100 h-100" 
          style="object-fit: cover; z-index: 0;">
@@ -306,7 +306,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> 
 
 <section class="py-5 bg-white">
     <div class="container">
