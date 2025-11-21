@@ -14,19 +14,23 @@
     @media (max-width:768px){ .hero .hero-inner { flex-direction:column; text-align:center; } }
 </style>
 
-<section class="hero" role="banner" aria-label="Hero - Tu salud">
-    <div class="hero-inner">
-        <div class="hero-content">
-            <h1>Tu Salud, Nuestra Prioridad</h1>
-            <p>Atención integral y humana con profesionales especializados. Reserva tu consulta y recibe el mejor cuidado.</p>
-            <a class="btn btn-primary btn-lg" href="contacto" role="button">Agendar Cita</a>
-        </div>
-        <div class="hero-visual" aria-hidden="true">
-            <img src="assets/hero.jpg" alt="Consulta médica" style="max-width:420px; width:100%; border-radius:12px; box-shadow:0 12px 40px rgba(13,38,76,0.08);">
+<section class="bg-light py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h1 class="display-4 fw-bold text-primary">Tu Salud, Nuestra Prioridad</h1>
+                <p class="lead text-muted mb-4">Atención integral y humana con profesionales especializados. Reserva tu consulta hoy mismo y recibe el mejor cuidado para ti y tu familia.</p>
+                <a href="contacto" class="btn btn-primary btn-lg px-4">Agendar Cita</a>
+                <a href="servicios" class="btn btn-outline-secondary btn-lg px-4 ms-2">Ver Servicios</a>
+            </div>
+            <div class="col-lg-6 mt-4 mt-lg-0">
+                <img src="https://images.unsplash.com/photo-1638202993928-7267aad84c31?q=80&w=800&auto=format&fit=crop" 
+                     alt="Doctora atendiendo paciente" 
+                     class="img-fluid rounded-3 shadow-lg">
+            </div>
         </div>
     </div>
 </section>
-
 <section class="services-row" aria-label="Servicios destacados">
     <div class="row g-4">
         <div class="col-md-4">
