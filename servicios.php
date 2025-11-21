@@ -208,9 +208,9 @@
     </div>
 </section>
 
-<section id="pediatria" class="parallax-section position-relative" style="background-image: url('https://images.unsplash.com/photo-1606218566353-29a357eb602d?q=80&w=1600&auto=format&fit=crop');">
-    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: #ffc107; opacity: 0.60;"></div>
-    
+<section id="pediatria" class="parallax-section position-relative" style="background-image: url('https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=1600&auto=format&fit=crop');">
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: #ffc107; opacity: 0.6;"></div>    
+
     <div class="container position-relative z-1 py-5">
         <div class="row align-items-center">
             <div class="col-lg-6"></div> 
