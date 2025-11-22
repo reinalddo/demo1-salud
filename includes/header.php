@@ -67,6 +67,24 @@
             font-size: 1.5rem;
             text-shadow: 0 2px 4px rgba(0,0,0,0.3);
         }
+
+    /* FIX PARA MÓVILES: Fondo sólido al desplegar el menú */
+        @media (max-width: 991px) {
+            .navbar-collapse {
+                background-color: #0d6efd; /* Azul Corporativo Sólido */
+                padding: 20px;
+                border-radius: 15px; /* Bordes redondeados */
+                margin-top: 15px; /* Separación del logo */
+                box-shadow: 0 10px 30px rgba(0,0,0,0.3); /* Sombra para que flote */
+                border: 1px solid rgba(255,255,255,0.1);
+            }
+            
+            /* Ajuste para que el botón de Cita no quede pegado */
+            .navbar-nav .btn {
+                width: 100%;
+                margin-top: 10px;
+            }
+        }
     </style>
 </head>
 <body>
