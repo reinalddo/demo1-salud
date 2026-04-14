@@ -1,4 +1,7 @@
-<?php include 'includes/header.php'; ?>
+<?php
+$pageTitle = 'Nosotros - Clínica Salud';
+include 'includes/header.php';
+?>
 
 <main>
 <header class="py-5 bg-dark position-relative" style="background-image: url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=1600&auto=format&fit=crop'); background-size: cover; background-position: center;">

@@ -10,7 +10,9 @@ Options -MultiViews
 	RewriteEngine On
 
 	# Forzar HTTPS
+	# Forzar HTTPS en producción — ignorar en entornos locales (localhost, 127.0.0.1, demomedicina)
 	RewriteCond %{HTTPS} !=on
+	RewriteCond %{HTTP_HOST} !^(localhost|127\.0\.0\.1|demomedicina)$ [NC]
 	RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 	# Si es un archivo o directorio real, servirlo tal cual

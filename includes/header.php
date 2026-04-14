@@ -1,9 +1,10 @@
+<?php include __DIR__ . '/funciones.php'; ?>
 <!doctype html>
 <html lang="es">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Clínica Salud</title>
+    <title><?php echo isset($pageTitle) ? htmlspecialchars($pageTitle) : 'Clínica Salud'; ?></title>
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" type="image/png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
@@ -122,7 +123,7 @@
                     </a>
                 </li>
                 <li class="nav-item ms-lg-3">
-                    <a class="btn btn-light text-primary fw-bold rounded-pill px-4 shadow-sm mt-2 mt-lg-0" href="https://wa.me/584241234567" target="_blank">
+                    <a class="btn btn-light text-primary fw-bold rounded-pill px-4 shadow-sm mt-2 mt-lg-0" href="<?php echo wa_link(); ?>" target="_blank">
                         <i class="bi bi-whatsapp"></i> Cita
                     </a>
                 </li>

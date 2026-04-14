@@ -1,4 +1,7 @@
-<?php include 'includes/header.php'; ?>
+<?php
+$pageTitle = 'Servicios - Clínica Salud';
+include 'includes/header.php';
+?>
 
 <main>
 <header class="py-5 bg-dark position-relative" style="background-image: url('https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?q=80&w=1600&auto=format&fit=crop'); background-size: cover; background-position: center; min-height: 400px; display: flex; align-items: center;">
@@ -26,7 +29,7 @@
                             <h4 class="fw-bold mb-0">Cardiología</h4>
                         </div>
                         <p class="text-muted mb-4">Evaluaciones cardíacas completas, monitoreo Holter y electrocardiogramas con especialistas certificados.</p>
-                        <a href="#cardiologia" class="text-primary text-decoration-none fw-bold stretched-link" target="_blank">
+                        <a href="#cardiologia" class="text-primary text-decoration-none fw-bold stretched-link">
                             Más información <i class="bi bi-arrow-right ms-1"></i>
                         </a>
                     </div>
@@ -43,7 +46,7 @@
                             <h4 class="fw-bold mb-0">Rayos X Digitales</h4>
                         </div>
                         <p class="text-muted mb-4">Imágenes de alta resolución con menor exposición a radiación y entrega de resultados digitales inmediatos.</p>
-                        <a href="#rayos-x" class="text-info text-decoration-none fw-bold stretched-link" target="_blank">
+                        <a href="#rayos-x" class="text-info text-decoration-none fw-bold stretched-link">
                             Más información <i class="bi bi-arrow-right ms-1"></i>
                         </a>
                     </div>
@@ -60,7 +63,7 @@
                             <h4 class="fw-bold mb-0">Laboratorio</h4>
                         </div>
                         <p class="text-muted mb-4">Análisis clínicos completos, pruebas hormonales y microbiología con estrictos controles de calidad.</p>
-                        <a href="#laboratorio" class="text-success text-decoration-none fw-bold stretched-link" target="_blank">
+                        <a href="#laboratorio" class="text-success text-decoration-none fw-bold stretched-link">
                             Más información <i class="bi bi-arrow-right ms-1"></i>
                         </a>
                     </div>
@@ -77,7 +80,7 @@
                             <h4 class="fw-bold mb-0">Pediatría</h4>
                         </div>
                         <p class="text-muted mb-4">Control de niño sano, esquema de vacunación completo y atención de urgencias infantiles con calidez.</p>
-                        <a href="#pediatria" class="text-warning text-decoration-none fw-bold stretched-link" target="_blank">
+                        <a href="#pediatria" class="text-warning text-decoration-none fw-bold stretched-link">
                             Más información <i class="bi bi-arrow-right ms-1"></i>
                         </a>
                     </div>
@@ -94,7 +97,7 @@
                             <h4 class="fw-bold mb-0">Odontología</h4>
                         </div>
                         <p class="text-muted mb-4">Diseño de sonrisa, ortodoncia, endodoncia y cirugía maxilofacial con equipos indoloros.</p>
-                        <a href="#odontologia" style="color: #6f42c1;" class="text-decoration-none fw-bold stretched-link" target="_blank">
+                        <a href="#odontologia" style="color: #6f42c1;" class="text-decoration-none fw-bold stretched-link">
                             Más información <i class="bi bi-arrow-right ms-1"></i>
                         </a>
                     </div>
@@ -111,7 +114,7 @@
                             <h4 class="fw-bold mb-0">Urgencias 24/7</h4>
                         </div>
                         <p class="text-muted mb-4">Unidad de trauma y reanimación disponible todo el día, todos los días del año.</p>
-                        <a href="#urgencias" class="text-danger text-decoration-none fw-bold stretched-link" target="_blank">
+                        <a href="#urgencias" class="text-danger text-decoration-none fw-bold stretched-link">
                             Más información <i class="bi bi-arrow-right ms-1"></i>
                         </a>
                     </div>
@@ -139,7 +142,7 @@
                     <li class="mb-2 fs-5"><i class="bi bi-check2-circle text-primary me-2"></i> Rehabilitación cardíaca</li>
                 </ul>
                 
-                <a href="https://wa.me/584241234567?text=Hola,%20quiero%20cita%20para%20Cardiología" target="_blank" class="btn btn-primary btn-lg rounded-pill px-5">
+                <a href="<?php echo wa_link('Hola, quiero cita para Cardiología'); ?>" target="_blank" class="btn btn-primary btn-lg rounded-pill px-5">
                     Pedir Cita Cardiología
                 </a>
             </div>
@@ -164,7 +167,7 @@
                     <li class="mb-2 fs-5">Entrega digital inmediata <i class="bi bi-check2-circle text-info ms-2"></i></li>
                 </ul>
                 <div>
-                    <a href="https://wa.me/584241234567?text=Hola,%20necesito%20Rayos%20X" target="_blank" class="btn btn-light text-primary btn-lg rounded-pill px-5">
+                    <a href="<?php echo wa_link('Hola, necesito Rayos X'); ?>" target="_blank" class="btn btn-light text-primary btn-lg rounded-pill px-5">
                         Consultar Disponibilidad
                     </a>
                 </div>
@@ -200,7 +203,7 @@
                     </div>
                 </div>
                 
-                <a href="https://wa.me/584241234567?text=Hola,%20precios%20de%20laboratorio" target="_blank" class="btn btn-success btn-lg rounded-pill px-5">
+                <a href="<?php echo wa_link('Hola, precios de laboratorio'); ?>" target="_blank" class="btn btn-success btn-lg rounded-pill px-5">
                     Ver Lista de Exámenes
                 </a>
             </div>
@@ -227,7 +230,7 @@
                     <li class="mb-2 fs-5">Vacunación sin dolor <i class="bi bi-check2-circle ms-2"></i></li>
                 </ul>
                 <div>
-                    <a href="https://wa.me/584241234567?text=Hola,%20necesito%20cita%20para%20mi%20hijo" target="_blank" class="btn btn-white bg-white text-warning fw-bold btn-lg rounded-pill px-5 shadow">
+                    <a href="<?php echo wa_link('Hola, necesito cita para mi hijo'); ?>" target="_blank" class="btn btn-white bg-white text-warning fw-bold btn-lg rounded-pill px-5 shadow">
                         Agendar Pediatra
                     </a>
                 </div>
@@ -263,7 +266,7 @@
                     </div>
                 </div>
                 
-                <a href="https://wa.me/584241234567?text=Hola,%20quiero%20cita%20odontológica" target="_blank" class="btn btn-outline-light btn-lg rounded-pill px-5">
+                <a href="<?php echo wa_link('Hola, quiero cita odontológica'); ?>" target="_blank" class="btn btn-outline-light btn-lg rounded-pill px-5">
                     Valoración Dental
                 </a>
             </div>
@@ -293,7 +296,7 @@
                 </div>
                 
                 <div>
-                    <a href="https://wa.me/584241234567?text=Hola,%20Tengo%20una%20Emergencia" class="btn btn-white bg-white text-danger fw-bold btn-lg rounded-pill px-5 shadow" target="_blank">
+                    <a href="<?php echo wa_link('Hola, Tengo una Emergencia'); ?>" class="btn btn-white bg-white text-danger fw-bold btn-lg rounded-pill px-5 shadow" target="_blank">
                         <i class="bi bi-telephone-fill me-2"></i> Llamar Emergencia
                     </a>
                 </div>
@@ -331,7 +334,7 @@
                             <li class="mb-3 text-muted text-decoration-line-through"><i class="bi bi-x-circle me-2"></i>Electrocardiograma</li>
                         </ul>
                         
-                        <a href="https://wa.me/584241234567?text=Hola,%20me%20interesa%20el%20Plan%20Básico" target="_blank" class="btn btn-outline-secondary w-100 rounded-pill py-2 fw-bold">
+                        <a href="<?php echo wa_link('Hola, me interesa el Plan Básico'); ?>" target="_blank" class="btn btn-outline-secondary w-100 rounded-pill py-2 fw-bold">
                             Solicitar Plan
                         </a>
                     </div>
@@ -362,7 +365,7 @@
                             <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i>Prueba de Función Hepática</li>
                         </ul>
                         
-                        <a href="https://wa.me/584241234567?text=Hola,%20me%20interesa%20el%20Plan%20Intermedio" target="_blank" class="btn btn-primary w-100 rounded-pill py-3 fw-bold shadow">
+                        <a href="<?php echo wa_link('Hola, me interesa el Plan Intermedio'); ?>" target="_blank" class="btn btn-primary w-100 rounded-pill py-3 fw-bold shadow">
                             Solicitar Plan Ahora
                         </a>
                     </div>
@@ -389,7 +392,7 @@
                             <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Espirometría</li>
                         </ul>
                         
-                        <a href="https://wa.me/584241234567?text=Hola,%20me%20interesa%20el%20Plan%20Avanzado" target="_blank" class="btn btn-outline-success w-100 rounded-pill py-2 fw-bold">
+                        <a href="<?php echo wa_link('Hola, me interesa el Plan Avanzado'); ?>" target="_blank" class="btn btn-outline-success w-100 rounded-pill py-2 fw-bold">
                             Solicitar Plan
                         </a>
                     </div>

@@ -1,4 +1,7 @@
-<?php include 'includes/header.php'; ?>
+<?php
+$pageTitle = 'Contacto - Clínica Salud';
+include 'includes/header.php';
+?>
 
 <main>
     <header class="py-5 bg-dark position-relative" style="background-image: url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=1600&auto=format&fit=crop'); background-size: cover; background-position: center;">
@@ -98,23 +101,20 @@
 
 <script>
 document.getElementById('whatsappForm').addEventListener('submit', function(e) {
-    e.preventDefault(); // Evita que se recargue la página
+    e.preventDefault();
 
-    // 1. Capturar los datos
-    var nombre = document.getElementById('nombre').value;
-    var servicio = document.getElementById('servicio').value;
-    var mensaje = document.getElementById('mensaje').value;
+    var nombre = document.getElementById('nombre').value.trim();
+    var servicio = document.getElementById('servicio').value.trim();
+    var mensaje = document.getElementById('mensaje').value.trim();
 
-    // 2. Número de teléfono de la clínica (CAMBIAR ESTE NÚMERO)
-    var telefono = "584241234567"; 
+    // Telefono provisto desde PHP
+    var telefono = "<?php echo $clinic_phone; ?>";
 
-    // 3. Crear el mensaje codificado
-    var texto = "Hola, mi nombre es *" + nombre + "*.%0A" +
-                "Estoy interesado en: *" + servicio + "*.%0A%0A" +
+    var texto = "Hola, mi nombre es *" + nombre + "*.\n" +
+                "Estoy interesado en: *" + servicio + "*.\n\n" +
                 "Mensaje: " + mensaje;
 
-    // 4. Abrir WhatsApp
-    var url = "https://wa.me/" + telefono + "?text=" + texto;
+    var url = "https://wa.me/" + telefono + "?text=" + encodeURIComponent(texto);
     window.open(url, '_blank');
 });
 </script>

@@ -1,4 +1,7 @@
-<?php include 'includes/header.php'; ?>
+<?php
+$pageTitle = 'Inicio - Clínica Salud';
+include 'includes/header.php';
+?>
 
 <main class="overflow-hidden"> <section class="position-relative d-flex align-items-center" style="min-height: 90vh;">
         <div class="position-absolute top-0 start-0 w-100 h-100" 
@@ -226,7 +229,7 @@
         <p class="lead mb-4 opacity-90">No dejes tu salud para después. Nuestro equipo está listo para recibirte.</p>
         
         <div class="d-flex justify-content-center gap-3 flex-wrap">
-            <a href="https://wa.me/584241234567" target="_blank" class="btn btn-success btn-lg rounded-pill px-5 fw-bold shadow hover-lift border border-2 border-white">
+            <a href="<?php echo wa_link(); ?>" target="_blank" class="btn btn-success btn-lg rounded-pill px-5 fw-bold shadow hover-lift border border-2 border-white">
                 <i class="bi bi-whatsapp me-2"></i> WhatsApp Directo
             </a>
             
