@@ -1,0 +1,141 @@
+{
+  "pageTitle": "Inicio - Clinica Salud",
+  "hero": {
+    "fondo": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=1920&auto=format&fit=crop",
+    "overlay": "linear-gradient(135deg, rgba(0,98,230,0.92), rgba(51,174,255,0.85))",
+    "badge": "Clinica #1 en Tachira",
+    "titulo": "Tu Salud Merece <br>La Mejor Atencion",
+    "texto": "Somos especialistas en cuidar lo que mas importa. Tecnologia de vanguardia y calidez humana en un solo lugar.",
+    "botonPrimario": {
+      "href": "contacto",
+      "texto": "Agendar Cita",
+      "title": "Ir a contacto"
+    },
+    "botonSecundario": {
+      "href": "servicios",
+      "texto": "Servicios",
+      "title": "Ir a servicios"
+    },
+    "imagen": {
+      "url": "https://png.pngtree.com/png-vector/20230928/ourmid/pngtree-young-afro-professional-doctor-png-image_10148632.png",
+      "alt": "Doctor de confianza"
+    }
+  },
+  "beneficios": {
+    "items": [
+      {
+        "icono": "bi bi-award-fill",
+        "iconoFondo": "bg-primary",
+        "titulo": "20 Anos Experiencia",
+        "texto": "Lideres en salud regional"
+      },
+      {
+        "icono": "bi bi-cpu-fill",
+        "iconoFondo": "bg-primary",
+        "titulo": "Tecnologia Alemana",
+        "texto": "Diagnosticos 99.9% precisos"
+      },
+      {
+        "icono": "bi bi-heart-pulse-fill",
+        "iconoFondo": "bg-danger",
+        "titulo": "Urgencias 24/7",
+        "texto": "Siempre disponibles"
+      }
+    ]
+  },
+  "nosotros": {
+    "pretitle": "Excelencia Medica",
+    "titulo": "Medicina humana con tecnologia del futuro",
+    "texto": "No somos solo una clinica, somos un centro integral de bienestar. Entendemos que detras de cada diagnostico hay una historia y una familia.",
+    "imagen": {
+      "url": "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=800&auto=format&fit=crop",
+      "alt": "Atencion medica"
+    },
+    "estadistica": {
+      "valor": "15k+",
+      "texto": "Pacientes Curados"
+    },
+    "items": [
+      "Laboratorio propio con resultados en 1 hora.",
+      "Staff medico certificado internacionalmente.",
+      "Habitaciones privadas tipo suite."
+    ],
+    "boton": {
+      "href": "nosotros",
+      "texto": "Conocer mas",
+      "title": "Ir a nosotros"
+    }
+  },
+  "especialidades": {
+    "pretitle": "Especialidades",
+    "titulo": "Cuidamos cada aspecto de tu vida",
+    "items": [
+      {
+        "href": "servicios#cardiologia",
+        "imagen": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=600&auto=format&fit=crop",
+        "titulo": "Cardiologia",
+        "textoAccion": "Ver Detalles",
+        "claseAccion": "text-primary"
+      },
+      {
+        "href": "servicios#pediatria",
+        "imagen": "https://images.pexels.com/photos/4546132/pexels-photo-4546132.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "titulo": "Pediatria",
+        "textoAccion": "Ver Detalles",
+        "claseAccion": "text-warning"
+      },
+      {
+        "href": "servicios#laboratorio",
+        "imagen": "https://images.unsplash.com/photo-1579154204601-01588f351e67?q=80&w=600&auto=format&fit=crop",
+        "titulo": "Laboratorio",
+        "textoAccion": "Ver Detalles",
+        "claseAccion": "text-success"
+      },
+      {
+        "href": "servicios",
+        "destacado": true,
+        "icono": "bi bi-grid-fill",
+        "titulo": "Ver todos los servicios",
+        "textoAccion": "Clic aqui"
+      }
+    ]
+  },
+  "testimonios": {
+    "pretitle": "Testimonios",
+    "titulo": "Pacientes Felices",
+    "items": [
+      {
+        "estrellas": "⭐⭐⭐⭐⭐",
+        "texto": "La atencion en pediatria fue increible. Mi hijo ni siquiera lloro con la vacuna. Super recomendados.",
+        "inicial": "M",
+        "inicialFondo": "bg-primary",
+        "nombre": "Maria Rodriguez",
+        "cargo": "Madre de Familia"
+      },
+      {
+        "estrellas": "⭐⭐⭐⭐⭐",
+        "texto": "Llegue por una urgencia de noche y la rapidez fue vital. Gracias al equipo de guardia por salvarme.",
+        "inicial": "C",
+        "inicialFondo": "bg-dark",
+        "nombre": "Carlos Perez",
+        "cargo": "Paciente de Urgencias"
+      }
+    ]
+  },
+  "cta": {
+    "titulo": "Necesitas atención ahora?",
+    "texto": "No dejes tu salud para despues. Nuestro equipo esta listo para recibirte.",
+    "fondo": "linear-gradient(135deg, #0062E6, #33AEFF)",
+    "botonWhatsapp": {
+      "tipo": "whatsapp",
+      "mensaje": "Hola, necesito atencion inmediata.",
+      "texto": "WhatsApp Directo",
+      "title": "Abrir WhatsApp"
+    },
+    "botonSecundario": {
+      "href": "contacto",
+      "texto": "Ver Ubicacion",
+      "title": "Ir a contacto"
+    }
+  }
+}

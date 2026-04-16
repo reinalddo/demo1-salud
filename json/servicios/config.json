@@ -1,0 +1,287 @@
+{
+  "pageTitle": "Servicios - Clinica Salud",
+  "header": {
+    "fondo": "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?q=80&w=1600&auto=format&fit=crop",
+    "badge": "Tecnologia y Precision",
+    "titulo": "Nuestros Servicios",
+    "texto": "Contamos con equipamiento de ultima generacion para garantizar diagnosticos rapidos y certeros para tu tranquilidad."
+  },
+  "cards": [
+    {
+      "ancla": "cardiologia",
+      "titulo": "Cardiologia",
+      "texto": "Evaluaciones cardiacas completas, monitoreo Holter y electrocardiogramas con especialistas certificados.",
+      "icono": "bi bi-heart-pulse-fill",
+      "borde": "#0d6efd",
+      "iconoFondo": "rgba(13,110,253,0.1)",
+      "iconoColor": "#0d6efd",
+      "linkColor": "#0d6efd"
+    },
+    {
+      "ancla": "rayos-x",
+      "titulo": "Rayos X Digitales",
+      "texto": "Imagenes de alta resolucion con menor exposicion a radiacion y entrega de resultados digitales inmediatos.",
+      "icono": "bi bi-lungs-fill",
+      "borde": "#0dcaf0",
+      "iconoFondo": "rgba(13,202,240,0.1)",
+      "iconoColor": "#0dcaf0",
+      "linkColor": "#0dcaf0"
+    },
+    {
+      "ancla": "laboratorio",
+      "titulo": "Laboratorio",
+      "texto": "Analisis clinicos completos, pruebas hormonales y microbiologia con estrictos controles de calidad.",
+      "icono": "bi bi-virus",
+      "borde": "#198754",
+      "iconoFondo": "rgba(25,135,84,0.1)",
+      "iconoColor": "#198754",
+      "linkColor": "#198754"
+    },
+    {
+      "ancla": "pediatria",
+      "titulo": "Pediatria",
+      "texto": "Control de nino sano, esquema de vacunacion completo y atencion de urgencias infantiles con calidez.",
+      "icono": "bi bi-emoji-smile-fill",
+      "borde": "#ffc107",
+      "iconoFondo": "rgba(255,193,7,0.15)",
+      "iconoColor": "#ffc107",
+      "linkColor": "#ffc107"
+    },
+    {
+      "ancla": "odontologia",
+      "titulo": "Odontologia",
+      "texto": "Diseno de sonrisa, ortodoncia, endodoncia y cirugia maxilofacial con equipos indoloros.",
+      "icono": "bi bi-gem",
+      "borde": "#6f42c1",
+      "iconoFondo": "rgba(111,66,193,0.1)",
+      "iconoColor": "#6f42c1",
+      "linkColor": "#6f42c1"
+    },
+    {
+      "ancla": "urgencias",
+      "titulo": "Urgencias 24/7",
+      "texto": "Unidad de trauma y reanimacion disponible todo el dia, todos los dias del ano.",
+      "icono": "bi bi-hospital-fill",
+      "borde": "#dc3545",
+      "iconoFondo": "rgba(220,53,69,0.1)",
+      "iconoColor": "#dc3545",
+      "linkColor": "#dc3545"
+    }
+  ],
+  "detalles": [
+    {
+      "id": "cardiologia",
+      "fondo": "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(17,24,39,0.78)",
+      "alineacion": "left",
+      "titulo": "Cardiologia Integral",
+      "icono": "bi bi-heart-pulse-fill",
+      "iconoColor": "#0d6efd",
+      "texto": "El corazon es el motor de tu vida. Nuestro centro cardiovascular ofrece la tecnologia mas avanzada para la prevencion y tratamiento.",
+      "lista": [
+        "Electrocardiograma digital",
+        "Holter de presion y arritmia",
+        "Rehabilitacion cardiaca"
+      ],
+      "listaColor": "#0d6efd",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, quiero cita para Cardiologia",
+        "texto": "Pedir Cita Cardiologia",
+        "clases": "btn btn-primary btn-lg rounded-pill px-5"
+      }
+    },
+    {
+      "id": "rayos-x",
+      "fondo": "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(13,110,253,0.88)",
+      "alineacion": "right",
+      "titulo": "Imagenologia Digital",
+      "icono": "bi bi-lungs-fill",
+      "iconoColor": "#0dcaf0",
+      "texto": "Diagnosticos claros en segundos. Nuestros equipos de baja radiacion protegen tu salud mientras obtenemos imagenes nitidas.",
+      "lista": [
+        "Rayos X de Torax y Oseos",
+        "Ecografia Doppler",
+        "Entrega digital inmediata"
+      ],
+      "listaColor": "#0dcaf0",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, necesito Rayos X",
+        "texto": "Consultar Disponibilidad",
+        "clases": "btn btn-light text-primary btn-lg rounded-pill px-5"
+      }
+    },
+    {
+      "id": "laboratorio",
+      "fondo": "https://images.unsplash.com/photo-1579154204601-01588f351e67?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(17,24,39,0.78)",
+      "alineacion": "left",
+      "titulo": "Laboratorio Clinico",
+      "icono": "bi bi-virus",
+      "iconoColor": "#198754",
+      "texto": "Resultados confiables garantizados por nuestro sistema de doble verificacion y reactivos de primera calidad.",
+      "metricas": [
+        {
+          "valor": "1h",
+          "texto": "Pruebas Rapidas",
+          "borde": "#198754"
+        },
+        {
+          "valor": "24/7",
+          "texto": "Toma de Muestras",
+          "borde": "#198754"
+        }
+      ],
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, precios de laboratorio",
+        "texto": "Ver Lista de Examenes",
+        "clases": "btn btn-success btn-lg rounded-pill px-5"
+      }
+    },
+    {
+      "id": "pediatria",
+      "fondo": "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(255,193,7,0.65)",
+      "alineacion": "right",
+      "titulo": "Pediatria con Amor",
+      "icono": "bi bi-emoji-smile-fill",
+      "iconoColor": "#ffffff",
+      "texto": "Creamos un ambiente seguro y divertido. Desde vacunas hasta control de crecimiento.",
+      "textoColor": "#ffffff",
+      "lista": [
+        "Control de Nino Sano",
+        "Vacunacion sin dolor"
+      ],
+      "listaColor": "#ffffff",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, necesito cita para mi hijo",
+        "texto": "Agendar Pediatra",
+        "clases": "btn btn-light text-warning fw-bold btn-lg rounded-pill px-5 shadow"
+      }
+    },
+    {
+      "id": "odontologia",
+      "fondo": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(111,66,193,0.85)",
+      "alineacion": "left",
+      "titulo": "Odontologia Familiar",
+      "icono": "bi bi-gem",
+      "iconoColor": "#ffffff",
+      "texto": "Disenamos sonrisas perfectas con tratamientos indoloros. Tecnologia laser y materiales esteticos de alta duracion.",
+      "pildoras": [
+        {
+          "icono": "bi bi-stars",
+          "texto": "Diseno de Sonrisa"
+        },
+        {
+          "icono": "bi bi-shield-check",
+          "texto": "Ortodoncia Invisible"
+        }
+      ],
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, quiero cita odontologica",
+        "texto": "Valoracion Dental",
+        "clases": "btn btn-outline-light btn-lg rounded-pill px-5"
+      }
+    },
+    {
+      "id": "urgencias",
+      "fondo": "https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "overlay": "rgba(220,53,69,0.78)",
+      "alineacion": "right",
+      "titulo": "Urgencias 24/7",
+      "icono": "bi bi-hospital-fill",
+      "iconoColor": "#ffffff",
+      "texto": "Cuando cada segundo cuenta, estamos listos. Unidad de trauma y ambulancias disponibles.",
+      "textoColor": "#ffffff",
+      "aviso": "Atencion inmediata sin cita",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, tengo una emergencia",
+        "texto": "Llamar Emergencia",
+        "clases": "btn btn-light text-danger fw-bold btn-lg rounded-pill px-5 shadow"
+      }
+    }
+  ],
+  "planes": {
+    "titulo": "Chequeos Preventivos",
+    "texto": "Invierte en tu tranquilidad con nuestros paquetes todo incluido",
+    "items": [
+      {
+        "titulo": "Plan Basico",
+        "precio": "$49",
+        "descripcion": "Ideal para control anual rutinario",
+        "icono": "bi bi-file-medical",
+        "color": "#6c757d",
+        "caracteristicas": [
+          "Consulta Medica General",
+          "Hemograma Completo",
+          "Glucosa y Colesterol"
+        ],
+        "caracteristicasNoIncluidas": [
+          "Electrocardiograma"
+        ],
+        "boton": {
+          "tipo": "whatsapp",
+          "mensaje": "Hola, me interesa el Plan Basico",
+          "texto": "Solicitar Plan",
+          "clases": "btn btn-outline-secondary w-100 rounded-pill py-2 fw-bold"
+        }
+      },
+      {
+        "titulo": "Plan Intermedio",
+        "precio": "$99",
+        "descripcion": "El balance perfecto para tu salud",
+        "icono": "bi bi-heart-pulse-fill",
+        "color": "#0d6efd",
+        "destacado": true,
+        "badge": "Mas Solicitado",
+        "caracteristicas": [
+          "Todo lo del Basico",
+          "Perfil Lipidico Completo",
+          "Electrocardiograma",
+          "Prueba de Funcion Hepatica"
+        ],
+        "boton": {
+          "tipo": "whatsapp",
+          "mensaje": "Hola, me interesa el Plan Intermedio",
+          "texto": "Solicitar Plan Ahora",
+          "clases": "btn btn-primary w-100 rounded-pill py-3 fw-bold shadow"
+        }
+      },
+      {
+        "titulo": "Plan Avanzado",
+        "precio": "$149",
+        "descripcion": "Evaluacion profunda y especializada",
+        "icono": "bi bi-clipboard2-pulse-fill",
+        "color": "#198754",
+        "caracteristicas": [
+          "Todo lo del Intermedio",
+          "Ecografia Abdominal",
+          "Consulta con Especialista",
+          "Espirometria"
+        ],
+        "boton": {
+          "tipo": "whatsapp",
+          "mensaje": "Hola, me interesa el Plan Avanzado",
+          "texto": "Solicitar Plan",
+          "clases": "btn btn-outline-success w-100 rounded-pill py-2 fw-bold"
+        }
+      }
+    ]
+  },
+  "cta": {
+    "titulo": "Listo para cuidar tu salud?",
+    "texto": "Agenda tu cita con nuestros especialistas hoy mismo.",
+    "boton": {
+      "href": "contacto",
+      "texto": "Agendar Cita",
+      "title": "Ir a contacto"
+    }
+  }
+}

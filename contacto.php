@@ -1,99 +1,88 @@
 <?php
-$pageTitle = 'Contacto - Clínica Salud';
+include 'includes/funciones.php';
+
+$contactoConfig = load_json_data('contacto/config.json', []);
+$header = $contactoConfig['header'] ?? [];
+$info = $contactoConfig['informacion'] ?? [];
+$mapa = $contactoConfig['mapa'] ?? [];
+$formulario = $contactoConfig['formulario'] ?? [];
+
+$nameField = $formulario['campos']['nombre'] ?? [];
+$serviceField = $formulario['campos']['servicio'] ?? [];
+$messageField = $formulario['campos']['mensaje'] ?? [];
+
+$pageTitle = $contactoConfig['pageTitle'] ?? ('Contacto - ' . $clinic_name);
 include 'includes/header.php';
 ?>
 
 <main>
-    <header class="py-5 bg-dark position-relative" style="background-image: url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=1600&auto=format&fit=crop'); background-size: cover; background-position: center;">
+    <header class="py-5 bg-dark position-relative" style="background-image: url('<?php echo htmlspecialchars(asset_url($header['fondo'] ?? ''), ENT_QUOTES, 'UTF-8'); ?>'); background-size: cover; background-position: center;">
         <div class="position-absolute top-0 start-0 w-100 h-100 bg-primary opacity-75"></div>
         <div class="container position-relative text-center text-white py-5">
-            <h1 class="display-3 fw-bold">Contáctanos</h1>
-            <p class="lead mx-auto" style="max-width: 700px;">Estamos aquí para atenderte. Agenda tu cita o resuelve tus dudas al instante.</p>
+            <h1 class="display-3 fw-bold"><?php echo htmlspecialchars($header['titulo'] ?? '', ENT_QUOTES, 'UTF-8'); ?></h1>
+            <p class="lead mx-auto" style="max-width: 700px;"><?php echo htmlspecialchars($header['texto'] ?? '', ENT_QUOTES, 'UTF-8'); ?></p>
         </div>
     </header>
 
     <section class="py-5 bg-light">
         <div class="container">
             <div class="row g-5">
-                
                 <div class="col-lg-6">
                     <div class="mb-5">
-                        <h3 class="fw-bold text-primary mb-4">Información de Contacto</h3>
-                        
-                        <div class="d-flex align-items-start mb-4">
-                            <div class="bg-white p-3 rounded-circle shadow-sm text-primary me-3">
-                                <i class="bi bi-geo-alt-fill fs-4"></i>
-                            </div>
-                            <div>
-                                <h5 class="fw-bold mb-1">Ubicación</h5>
-                                <p class="text-muted mb-0">Av. Principal de Pueblo Nuevo, Edif. Salud, Piso 2.<br>San Cristóbal, Táchira.</p>
-                            </div>
-                        </div>
+                        <h3 class="fw-bold text-primary mb-4"><?php echo htmlspecialchars($info['titulo'] ?? '', ENT_QUOTES, 'UTF-8'); ?></h3>
 
-                        <div class="d-flex align-items-start mb-4">
-                            <div class="bg-white p-3 rounded-circle shadow-sm text-primary me-3">
-                                <i class="bi bi-telephone-fill fs-4"></i>
+                        <?php foreach (($info['items'] ?? []) as $item): ?>
+                            <div class="d-flex align-items-start mb-4">
+                                <div class="bg-white p-3 rounded-circle shadow-sm text-primary me-3">
+                                    <i class="<?php echo htmlspecialchars($item['icono'] ?? '', ENT_QUOTES, 'UTF-8'); ?> fs-4"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1"><?php echo htmlspecialchars($item['titulo'] ?? '', ENT_QUOTES, 'UTF-8'); ?></h5>
+                                    <?php foreach (($item['lineas'] ?? []) as $line): ?>
+                                        <p class="text-muted mb-0"><?php echo htmlspecialchars($line, ENT_QUOTES, 'UTF-8'); ?></p>
+                                    <?php endforeach; ?>
+                                </div>
                             </div>
-                            <div>
-                                <h5 class="fw-bold mb-1">Teléfonos</h5>
-                                <p class="text-muted mb-0">+58 424 123 4567</p>
-                                <p class="text-muted mb-0">0276 345 6789</p>
-                            </div>
-                        </div>
-
-                        <div class="d-flex align-items-start mb-4">
-                            <div class="bg-white p-3 rounded-circle shadow-sm text-primary me-3">
-                                <i class="bi bi-envelope-fill fs-4"></i>
-                            </div>
-                            <div>
-                                <h5 class="fw-bold mb-1">Correo Electrónico</h5>
-                                <p class="text-muted mb-0">citas@clinicasalud.com</p>
-                            </div>
-                        </div>
+                        <?php endforeach; ?>
                     </div>
 
                     <div class="rounded-4 overflow-hidden shadow-sm border">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.969730784742!2d-72.2227166856786!3d7.793033594383816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e666cb0966a3479%3A0x628004f99580884d!2sSan%20Crist%C3%B3bal%2C%20T%C3%A1chira!5e0!3m2!1ses!2sve!4v1645000000000!5m2!1ses!2sve" 
-                                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="<?php echo htmlspecialchars($mapa['src'] ?? '', ENT_QUOTES, 'UTF-8'); ?>" width="100%" height="<?php echo htmlspecialchars($mapa['height'] ?? '300', ENT_QUOTES, 'UTF-8'); ?>" style="border:0;" allowfullscreen="" loading="lazy" title="<?php echo htmlspecialchars($mapa['title'] ?? '', ENT_QUOTES, 'UTF-8'); ?>"></iframe>
                     </div>
                 </div>
 
                 <div class="col-lg-6">
                     <div class="card border-0 shadow-lg h-100">
                         <div class="card-body p-5">
-                            <h3 class="fw-bold mb-4">Envíanos un Mensaje</h3>
+                            <h3 class="fw-bold mb-4"><?php echo htmlspecialchars($formulario['titulo'] ?? '', ENT_QUOTES, 'UTF-8'); ?></h3>
                             <form id="whatsappForm">
                                 <div class="mb-3">
-                                    <label for="nombre" class="form-label fw-bold">Nombre Completo</label>
-                                    <input type="text" class="form-control form-control-lg bg-light border-0" id="nombre" placeholder="Ej: Juan Pérez" required>
+                                    <label for="<?php echo htmlspecialchars($nameField['id'] ?? 'nombre', ENT_QUOTES, 'UTF-8'); ?>" class="form-label fw-bold"><?php echo htmlspecialchars($nameField['label'] ?? '', ENT_QUOTES, 'UTF-8'); ?></label>
+                                    <input type="text" class="form-control form-control-lg bg-light border-0" id="<?php echo htmlspecialchars($nameField['id'] ?? 'nombre', ENT_QUOTES, 'UTF-8'); ?>" placeholder="<?php echo htmlspecialchars($nameField['placeholder'] ?? '', ENT_QUOTES, 'UTF-8'); ?>" required>
                                 </div>
-                                
+
                                 <div class="mb-3">
-                                    <label for="servicio" class="form-label fw-bold">Asunto / Servicio</label>
-                                    <select class="form-select form-select-lg bg-light border-0" id="servicio">
-                                        <option value="Consulta General">Consulta General</option>
-                                        <option value="Cardiología">Cardiología</option>
-                                        <option value="Pediatría">Pediatría</option>
-                                        <option value="Odontología">Odontología</option>
-                                        <option value="Laboratorio">Laboratorio</option>
-                                        <option value="Otro">Otro</option>
+                                    <label for="<?php echo htmlspecialchars($serviceField['id'] ?? 'servicio', ENT_QUOTES, 'UTF-8'); ?>" class="form-label fw-bold"><?php echo htmlspecialchars($serviceField['label'] ?? '', ENT_QUOTES, 'UTF-8'); ?></label>
+                                    <select class="form-select form-select-lg bg-light border-0" id="<?php echo htmlspecialchars($serviceField['id'] ?? 'servicio', ENT_QUOTES, 'UTF-8'); ?>">
+                                        <?php foreach (($serviceField['opciones'] ?? []) as $option): ?>
+                                            <option value="<?php echo htmlspecialchars($option, ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars($option, ENT_QUOTES, 'UTF-8'); ?></option>
+                                        <?php endforeach; ?>
                                     </select>
                                 </div>
 
                                 <div class="mb-4">
-                                    <label for="mensaje" class="form-label fw-bold">Mensaje</label>
-                                    <textarea class="form-control bg-light border-0" id="mensaje" rows="4" placeholder="Hola, quisiera agendar una cita para..." required></textarea>
+                                    <label for="<?php echo htmlspecialchars($messageField['id'] ?? 'mensaje', ENT_QUOTES, 'UTF-8'); ?>" class="form-label fw-bold"><?php echo htmlspecialchars($messageField['label'] ?? '', ENT_QUOTES, 'UTF-8'); ?></label>
+                                    <textarea class="form-control bg-light border-0" id="<?php echo htmlspecialchars($messageField['id'] ?? 'mensaje', ENT_QUOTES, 'UTF-8'); ?>" rows="<?php echo (int) ($messageField['rows'] ?? 4); ?>" placeholder="<?php echo htmlspecialchars($messageField['placeholder'] ?? '', ENT_QUOTES, 'UTF-8'); ?>" required></textarea>
                                 </div>
 
-                                <button type="submit" class="btn btn-primary w-100 btn-lg rounded-pill fw-bold shadow hover-lift">
-                                    <i class="bi bi-whatsapp me-2"></i> Enviar por WhatsApp
+                                <button type="submit" class="btn btn-primary w-100 btn-lg rounded-pill fw-bold shadow hover-lift" title="<?php echo htmlspecialchars($formulario['boton']['title'] ?? '', ENT_QUOTES, 'UTF-8'); ?>">
+                                    <i class="bi bi-whatsapp me-2"></i> <?php echo htmlspecialchars($formulario['boton']['texto'] ?? '', ENT_QUOTES, 'UTF-8'); ?>
                                 </button>
-                                <p class="text-center text-muted small mt-3">Te responderemos inmediatamente a tu chat.</p>
+                                <p class="text-center text-muted small mt-3"><?php echo htmlspecialchars($formulario['ayuda'] ?? '', ENT_QUOTES, 'UTF-8'); ?></p>
                             </form>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -103,18 +92,21 @@ include 'includes/header.php';
 document.getElementById('whatsappForm').addEventListener('submit', function(e) {
     e.preventDefault();
 
-    var nombre = document.getElementById('nombre').value.trim();
-    var servicio = document.getElementById('servicio').value.trim();
-    var mensaje = document.getElementById('mensaje').value.trim();
+    var nombre = document.getElementById('<?php echo htmlspecialchars($nameField['id'] ?? 'nombre', ENT_QUOTES, 'UTF-8'); ?>').value.trim();
+    var servicio = document.getElementById('<?php echo htmlspecialchars($serviceField['id'] ?? 'servicio', ENT_QUOTES, 'UTF-8'); ?>').value.trim();
+    var mensaje = document.getElementById('<?php echo htmlspecialchars($messageField['id'] ?? 'mensaje', ENT_QUOTES, 'UTF-8'); ?>').value.trim();
 
-    // Telefono provisto desde PHP
-    var telefono = "<?php echo $clinic_phone; ?>";
+    if (!nombre || !mensaje) {
+        alert('<?php echo htmlspecialchars($formulario['mensajes']['validacion'] ?? 'Completa los campos requeridos.', ENT_QUOTES, 'UTF-8'); ?>');
+        return;
+    }
 
-    var texto = "Hola, mi nombre es *" + nombre + "*.\n" +
-                "Estoy interesado en: *" + servicio + "*.\n\n" +
-                "Mensaje: " + mensaje;
+    var telefono = '<?php echo htmlspecialchars($clinic_phone, ENT_QUOTES, 'UTF-8'); ?>';
+    var texto = 'Hola, mi nombre es *' + nombre + '*.' + '\n' +
+                'Estoy interesado en: *' + servicio + '*.' + '\n\n' +
+                'Mensaje: ' + mensaje;
 
-    var url = "https://wa.me/" + telefono + "?text=" + encodeURIComponent(texto);
+    var url = 'https://wa.me/' + telefono + '?text=' + encodeURIComponent(texto);
     window.open(url, '_blank');
 });
 </script>

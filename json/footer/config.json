@@ -1,0 +1,45 @@
+{
+  "marca": {
+    "nombre": "Clinica Salud",
+    "descripcion": "Atencion medica integral para toda la familia con tecnologia y trato cercano.",
+    "href": "index"
+  },
+  "enlaces": [
+    {
+      "texto": "Inicio",
+      "href": "index",
+      "title": "Ir a inicio"
+    },
+    {
+      "texto": "Nosotros",
+      "href": "nosotros",
+      "title": "Ir a nosotros"
+    },
+    {
+      "texto": "Servicios",
+      "href": "servicios",
+      "title": "Ir a servicios"
+    },
+    {
+      "texto": "Contacto",
+      "href": "contacto",
+      "title": "Ir a contacto"
+    }
+  ],
+  "social": [
+    {
+      "red": "facebook",
+      "href": "#",
+      "title": "Facebook"
+    },
+    {
+      "red": "instagram",
+      "href": "#",
+      "title": "Instagram"
+    }
+  ],
+  "horario": [
+    "Lun - Vie: 9:00 - 18:00"
+  ],
+  "copyright": "Todos los derechos reservados."
+}

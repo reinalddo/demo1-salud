@@ -1,0 +1,22 @@
+{
+  "nombre": "Clinica Salud",
+  "eslogan": "Atencion integral con calidad humana y tecnologia de vanguardia.",
+  "favicon": "https://cdn-icons-png.flaticon.com/512/2966/2966327.png",
+  "telefonoWhatsapp": "584241234567",
+  "telefonoPrincipal": {
+    "texto": "+58 424 123 4567",
+    "href": "tel:+584241234567",
+    "title": "Llamar a Clinica Salud"
+  },
+  "telefonoAlterno": {
+    "texto": "0276 345 6789",
+    "href": "tel:+582763456789",
+    "title": "Llamar al numero alterno"
+  },
+  "correo": {
+    "texto": "citas@clinicasalud.com",
+    "href": "mailto:citas@clinicasalud.com",
+    "title": "Enviar correo a Clinica Salud"
+  },
+  "direccion": "Av. Principal de Pueblo Nuevo, Edif. Salud, Piso 2. San Cristobal, Tachira."
+}

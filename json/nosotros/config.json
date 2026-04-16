@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Nosotros - Clinica Salud",
+  "header": {
+    "fondo": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=1600&auto=format&fit=crop",
+    "titulo": "Quienes Somos",
+    "texto": "Mas que una clinica, somos una familia comprometida con la salud integral de nuestra comunidad desde hace mas de 20 anos."
+  },
+  "historia": {
+    "titulo": "Historia y Mision",
+    "parrafos": [
+      "Desde nuestros inicios hemos priorizado la excelencia clinica y la cercania con los pacientes. Contamos con un equipo multidisciplinario con amplia experiencia en atencion primaria y especializada.",
+      "Nuestra mision es brindar servicios de salud con calidad, calidez y tecnologia, promoviendo el bienestar y la prevencion en todas las etapas de la vida."
+    ],
+    "imagen": {
+      "url": "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=900&q=80",
+      "alt": "Doctores trabajando"
+    }
+  },
+  "valores": {
+    "titulo": "Nuestros Valores",
+    "items": [
+      {
+        "icono": "bi bi-heart-pulse-fill",
+        "titulo": "Compromiso",
+        "texto": "Atencion dedicada y responsable con cada paciente y su familia."
+      },
+      {
+        "icono": "bi bi-cpu-fill",
+        "titulo": "Tecnologia",
+        "texto": "Equipamiento moderno para diagnosticos precisos y tratamiento eficiente."
+      },
+      {
+        "icono": "bi bi-people-fill",
+        "titulo": "Calidez Humana",
+        "texto": "Trato cercano y empatico en cada consulta y procedimiento."
+      }
+    ]
+  },
+  "especialistas": {
+    "titulo": "Conoce a tus especialistas",
+    "texto": "Un equipo multidisciplinario a tu servicio",
+    "items": [
+      {
+        "imagen": "https://randomuser.me/api/portraits/women/68.jpg",
+        "alt": "Dra. Ana Perez",
+        "nombre": "Dra. Ana Perez",
+        "especialidad": "Cardiología"
+      },
+      {
+        "imagen": "https://randomuser.me/api/portraits/men/32.jpg",
+        "alt": "Dr. Luis Gomez",
+        "nombre": "Dr. Luis Gomez",
+        "especialidad": "Pediatria"
+      },
+      {
+        "imagen": "https://randomuser.me/api/portraits/women/45.jpg",
+        "alt": "Dra. Marta Ruiz",
+        "nombre": "Dra. Marta Ruiz",
+        "especialidad": "Medicina General"
+      },
+      {
+        "imagen": "https://randomuser.me/api/portraits/men/85.jpg",
+        "alt": "Dr. Carlos Mendez",
+        "nombre": "Dr. Carlos Mendez",
+        "especialidad": "Laboratorio"
+      }
+    ]
+  }
+}

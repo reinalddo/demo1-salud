@@ -1,0 +1,77 @@
+{
+  "pageTitle": "Contacto - Clinica Salud",
+  "header": {
+    "fondo": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=1600&auto=format&fit=crop",
+    "titulo": "Contactanos",
+    "texto": "Estamos aqui para atenderte. Agenda tu cita o resuelve tus dudas al instante."
+  },
+  "informacion": {
+    "titulo": "Informacion de Contacto",
+    "items": [
+      {
+        "icono": "bi bi-geo-alt-fill",
+        "titulo": "Ubicacion",
+        "lineas": [
+          "Av. Principal de Pueblo Nuevo, Edif. Salud, Piso 2.",
+          "San Cristobal, Tachira."
+        ]
+      },
+      {
+        "icono": "bi bi-telephone-fill",
+        "titulo": "Telefonos",
+        "lineas": [
+          "+58 424 123 4567",
+          "0276 345 6789"
+        ]
+      },
+      {
+        "icono": "bi bi-envelope-fill",
+        "titulo": "Correo Electronico",
+        "lineas": [
+          "citas@clinicasalud.com"
+        ]
+      }
+    ]
+  },
+  "mapa": {
+    "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.969730784742!2d-72.2227166856786!3d7.793033594383816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e666cb0966a3479%3A0x628004f99580884d!2sSan%20Crist%C3%B3bal%2C%20T%C3%A1chira!5e0!3m2!1ses!2sve!4v1645000000000!5m2!1ses!2sve",
+    "title": "Mapa de Clinica Salud",
+    "height": "300"
+  },
+  "formulario": {
+    "titulo": "Envianos un Mensaje",
+    "campos": {
+      "nombre": {
+        "id": "nombre",
+        "label": "Nombre Completo",
+        "placeholder": "Ej: Juan Perez"
+      },
+      "servicio": {
+        "id": "servicio",
+        "label": "Asunto / Servicio",
+        "opciones": [
+          "Consulta General",
+          "Cardiologia",
+          "Pediatria",
+          "Odontologia",
+          "Laboratorio",
+          "Otro"
+        ]
+      },
+      "mensaje": {
+        "id": "mensaje",
+        "label": "Mensaje",
+        "placeholder": "Hola, quisiera agendar una cita para...",
+        "rows": 4
+      }
+    },
+    "boton": {
+      "texto": "Enviar por WhatsApp",
+      "title": "Enviar mensaje por WhatsApp"
+    },
+    "ayuda": "Te responderemos inmediatamente a tu chat.",
+    "mensajes": {
+      "validacion": "Por favor completa tu nombre y tu mensaje antes de enviar."
+    }
+  }
+}
